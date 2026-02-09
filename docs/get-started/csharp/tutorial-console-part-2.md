@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 2: Extend your C# console app"
-description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
+description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing non-Microsoft packages.
 ms.custom: vs-acquisition
 ms.date: 10/18/2024
 ms.subservice: general-ide
@@ -15,7 +15,7 @@ dev_langs:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
-In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
+In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing non-Microsoft packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
 In this tutorial, you complete the following tasks:
 
@@ -531,7 +531,7 @@ To output operations in JSON, a popular and portable format for storing object d
 
 The Visual Studio debugger is a powerful tool. The debugger can step through your code to find the exact point where there's a programming mistake. You can then understand what corrections you need to make, and make temporary changes so you can continue running your app.
 
-1. In *Program.cs*, click in the gutter to the left of the following code line. You can also click in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
+1. In *Program.cs*, select in the gutter to the left of the following code line. You can also select in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
 
    ```csharp
    // Program.cs
@@ -560,7 +560,7 @@ The Visual Studio debugger is a powerful tool. The debugger can step through you
 
    ![Screenshot that shows viewing a DataTip.](media/vs-2019/calculator-2-debug-view-datatip.png)
 
-   When debugging, checking to see whether variables hold the values you expect is often critical to fixing issues.
+   When you debug code, checking to see whether variables hold the values you expect is often critical to fixing issues.
 
 2. In the lower pane, look at the **Locals** window. If it's closed, select **Debug** > **Windows** > **Locals** to open it.
 
@@ -822,10 +822,10 @@ namespace CalculatorProgram
 Congratulations on completing this tutorial! To learn more, continue with the following content:
 
 - [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-- [Quickstart: Create an ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
+- [Get started with C# and ASP.NET Core in Visual Studio](../../ide/quickstart-aspnet-core.md)
 - [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
-- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Run a C# program](run-program.md)
+- [Create and run unit tests for .NET](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program or app in Visual Studio](run-program.md)
 - [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md)
 - [Continue with the Visual Studio IDE overview](visual-studio-ide.md)
-- [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)
+- [Learn about .NET logging and tracing](/dotnet/core/diagnostics/logging-tracing)
