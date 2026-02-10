@@ -3,6 +3,7 @@ description: Facilitates walking the stack using the program debug database (.pd
 title: IDiaStackWalkHelper3
 ms.date: "02/09/2026"
 ms.topic: "reference"
+ms.custom: awp-ai
 dev_langs:
   - "C++"
 helpviewer_keywords:

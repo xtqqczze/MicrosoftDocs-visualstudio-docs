@@ -3,6 +3,7 @@ description: "IDiaStackWalkHelper3::get_registerValue retrieves the value of the
 title: "IDiaStackWalkHelper3::get_registerValue"
 ms.date: "02/09/2026"
 ms.topic: "reference"
+ms.custom: awp-ai
 dev_langs:
   - "C++"
 helpviewer_keywords:

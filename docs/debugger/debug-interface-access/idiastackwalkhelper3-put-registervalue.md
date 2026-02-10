@@ -3,6 +3,7 @@ description: "IDiaStackWalkHelper3::put_registerValue sets the value of the spec
 title: "IDiaStackWalkHelper3::put_registerValue"
 ms.date: "02/09/2026"
 ms.topic: "reference"
+ms.custom: awp-ai
 dev_langs:
   - "C++"
 helpviewer_keywords:
