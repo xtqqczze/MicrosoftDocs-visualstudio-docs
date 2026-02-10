@@ -549,7 +549,7 @@ The Visual Studio debugger is a powerful tool. The debugger can step through you
    - For the second number, enter *0*.
    - For the operator, let's have some fun. Enter *d*.
 
-   The app suspends where you created the breakpoint. The yellow pointer on the left and the highlighted code indicated the suspended line. The highlighted code hasn't yet run.
+   The app suspends where you created the breakpoint. The yellow pointer on the left and the highlighted code indicate the suspended line. The highlighted code hasn't yet run.
 
    :::image type="content" source="media/vs-2019/calculator-2-debug-hit-breakpoint.png" alt-text="Screenshot that shows hitting a breakpoint.":::
 
@@ -629,7 +629,7 @@ Next, run code in the debugger one statement at a time, which is called *steppin
 
    Dragging the pointer here causes the app to completely skip the `if` statement, so you can see what happens when you divide by zero.
 
-1. Press **F10** to run the line of code.
+1. Press **F10** to execute the line of code.
 
 1. If you hover over the `result` variable, it shows a value of **Infinity**. In C#, Infinity is the result when you divide by zero.
 
