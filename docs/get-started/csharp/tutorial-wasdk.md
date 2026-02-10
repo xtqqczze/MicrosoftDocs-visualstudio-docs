@@ -16,18 +16,15 @@ dev_langs:
 
 # Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;
 
-In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Windows App SDK (WinUI 3) project template, Extensible Application Markup Language (XAML), and the C# programming language.
+In this introduction to the Visual Studio integrated development environment (IDE), you create a "Hello World" app that runs on any Windows 10 or later device. To do so, you use a Windows App SDK (WinUI 3) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 > [!NOTE]
-> WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/) (completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/)). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
+> WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/)> It's completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
 
 ::: moniker range=">=vs-2022"
 ## Prerequisites
 
-- You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
 - Workloads and components required for developing with WinUI and the Windows App SDK. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
     
     On the **Workloads** tab of the Visual Studio Installer, select the following:
@@ -58,8 +55,7 @@ For details, see [Install tools for the Windows App SDK](/windows/apps/windows-a
 
 ## Create a project
 
-First, create a WinUI 3 project. The project type comes with all the template files you need, before you've even added anything!
-
+First, create a WinUI 3 project. The project type comes with all the template files you need, before you even add anything!
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
@@ -72,8 +68,8 @@ First, create a WinUI 3 project. The project type comes with all the template fi
    :::image type="content" source="media/vs-2022/winui-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWorld' entered in the Project name field.":::
 
    > [!NOTE]
-   > If this is the first time you have used Visual Studio to create a Windows App SDK app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
-   > ![Screenshot showing the Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+   > If this article is the first time you use Visual Studio to create a Windows App SDK app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
+   > ![Screenshot showing the Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs another Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
 
 ## Create the application
 
@@ -97,9 +93,9 @@ It's time to start developing. You'll add a button control, add an action to the
 
 1. In the **XAML Editor**, change Button Content value from "Click me" to "Hello World!".
 
-   :::image type="content" source="media/vs-2022/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor. The value of the Content property has been changed to 'Hello World!'.":::
+   :::image type="content" source="media/vs-2022/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor, with the value of the Content property changed to Hello World!":::
 
-1. Notice that the button has a **Click** event handler named *myButton_Click* specified, too. We'll get to that in the next step.
+1. The button has a **Click** event handler named *myButton_Click* specified, too. You work with that in the next section.
 
    :::image type="content" source="media/vs-2022/winui-button-click-event-highlighted.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor. The click event of the button has been highlighted.":::
 
@@ -111,7 +107,7 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
 1. Edit the event handler code in the C# editor window that opens.
 
-   Here is where things get interesting. The default event handler looks like this:
+   Here's where things get interesting. The default event handler looks like this:
 
    :::image type="content" source="media/vs-2022/winui-button-click-code.png" alt-text="Screenshot showing the C# code for the default myButton_Click event handler.":::
 
@@ -155,7 +151,7 @@ It's time to build, deploy, and launch the "Hello World" Windows App SDK app to 
 
 1. Select the **Hello World** button.
 
-   Your Windows 10 or later device will display a message that says "Welcome to your first Windows App SDK app" with the title "Hello from HelloWorld." Click **Ok** to dismiss the message.
+   Your Windows 10 or later device displays a message that says "Welcome to your first Windows App SDK app" with the title "Hello from HelloWorld." Click **Ok** to dismiss the message.
 
    :::image type="content" source="media/vs-2022/winui-hello-from-hello-world-app.png" alt-text="Screenshot showing the running 'Hello World' application with a popup titled 'Hello from HelloWorld'.":::
 
