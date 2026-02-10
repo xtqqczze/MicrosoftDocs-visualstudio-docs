@@ -22,9 +22,9 @@ Use these tutorials to learn about the following tasks in the Visual Studio inte
 - Use a `foreach` loop in C# or a `For Each` loop in Visual Basic to iterate through items in a list.
 - Keep track of a form's state by using reference variables.
 - Create an event handler to respond to events that you can use with multiple objects.
-- Create a timer that counts down and then fires an event exactly once after it's started.
+- Create a timer that counts down and then fires an event exactly once after it starts.
 
-When you finish, you'll have a complete game.
+When you finish, you have a complete game.
 
 :::image type="content" source="../media/tutorial-windows-forms-create-match-game/match-game-final.png" alt-text="Screenshot of the game that you create. Several matching icons are displayed in a grid.":::
 
