@@ -17,7 +17,9 @@ dev_langs:
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
-In part 2 of this tutorial series, you dive deeper into the Visual Studio build and debug features that you need for daily development. These features include managing multiple projects, debugging, and referencing non-Microsoft packages. You use the C# console app you created in [Part 1 of this tutorial](tutorial-console.md) to explore features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
+In part 2 of this tutorial series, you dive deeper into the Visual Studio build and debug features that you need for daily development. These features include managing multiple projects, debugging, and referencing non-Microsoft packages.
+
+For this tutorial, you use the C# console app you created in [Part 1 of this tutorial](tutorial-console.md) to explore features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
 In this tutorial, you complete the following tasks:
 
