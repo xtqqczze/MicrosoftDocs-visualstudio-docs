@@ -45,7 +45,7 @@ In Visual Studio, use the menu command **File** > **Add** > **New Project** to a
 ::: moniker range=">=vs-2022"
 1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
 
-1. In the **Create a new project** window, type *class library* in the Search box. Choose the C# **Class Library** project template, and then select **Next**.
+1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class Library** project template, and then select **Next**.
 
    :::image type="content" source="media/vs-2022/calculator-add-project.png" alt-text="Screenshot of Class Library project template selection.":::
 
