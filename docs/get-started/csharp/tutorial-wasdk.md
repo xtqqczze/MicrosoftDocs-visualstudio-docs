@@ -24,11 +24,15 @@ In this introduction to the Visual Studio integrated development environment (ID
 ::: moniker range=">=vs-2022"
 ## Prerequisites
 
-- You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+- You need Visual Studio to complete this tutorial. For a free version, see [Visual Studio downloads](https://visualstudio.microsoft.com/vs/).
 - Workloads and components required for developing with WinUI and the Windows App SDK. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
     
     On the **Workloads** tab of the Visual Studio Installer, select the following:
 
+    ### [Visual Studio 2026](#tab/vs-2026)
+    
+    * For **C#** app development using the Windows App SDK, select **WinUI application development**.
+    
     ### [Visual Studio 2022 version 17.10 and later](#tab/vs-2022-17-10)
     
     * For **C#** app development using the Windows App SDK, select **WinUI application development**.
@@ -59,9 +63,9 @@ First, create a WinUI 3 project. The project type comes with all the template fi
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
-1. On the **Create a new project** screen, enter *WinUI* in the search box, choose the C# template for **Blank App, Packaged (WinUI 3 in Desktop)**, and then choose **Next**.
+1. On the **Create a new project** screen, enter *WinUI* in the search box, choose the C# template for **WinUI Blank App (Packaged)**, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/winui-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WinUI' entered in the search box, and the 'Blank App, Packaged (WinUI 3 in Desktop)' project template highlighted.":::
+   :::image type="content" source="media/vs-2022/winui-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WinUI' entered in the search box, and the WinUI Blank App (Packaged) project template highlighted.":::
 
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
@@ -85,7 +89,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
    :::image type="content" source="media/vs-2022/winui-xaml-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows the XAML markup for the window.":::
 
-1. Review the **Button** control nested within the **StackPanel** at the root of the **Window**.
+1. Inside the `<Grid>` item, start typing *\<Button*. Itellisense offers you a button option. Press **Tab** to accept.
 
    :::image type="content" source="media/vs-2022/winui-button-control.png" alt-text="Screenshot showing 'Button' highlighted in the XAML editor.":::
 
