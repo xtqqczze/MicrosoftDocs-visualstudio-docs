@@ -32,7 +32,7 @@ Each area of the portal provides you with capabilities:
 + **Downloads**: Depending on which subscription you have, you can access product updates, patches, and full versions of hundreds of products and versions.
 + **Product keys**: Use this page to access the product keys that you need for installing and activating the software that you download from the **Downloads** page.
 + **Subscriptions**: If you have more than one subscription, you can view and switch between them on this page. You can also view expiration dates, find support information, and even renew certain types of subscriptions.
-+ **Get help**: This page is your pathway to support for your subscriptions. You can view frequently asked questions, submit support cases, and access helpful information such as subscription and admin portal documentation.
++ **Get Help**: This page is your pathway to support for your subscriptions. You can view frequently asked questions, submit support cases, and access helpful information such as subscription and admin portal documentation.
 + **Marketplace**: If you're looking for extensions for Visual Studio, this page is the place to find a large collection of the latest and most popular extensions for your integrated development environment (IDE).
 
 ## Benefits
@@ -69,6 +69,6 @@ As an active Visual Studio subscriber, you can use features in the Azure DevOps 
 ## Related content
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps Services documentation](/azure/devops/)
++ [Azure DevOps documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
