@@ -21,7 +21,7 @@ dev_langs:
 In this introduction to the Visual Studio integrated development environment (IDE), you create a "Hello World" app that runs on any Windows 10 or later device. To do so, you use a Windows App SDK (WinUI 3) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
 > [!NOTE]
-> WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/)> It's completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
+> WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/). It's completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
 
 ::: moniker range=">=vs-2022"
 ## Prerequisites
@@ -94,7 +94,7 @@ It's time to start developing. Here you add a button control, add an action to t
 
    :::image type="content" source="media/vs-2022/winui-xaml-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows the XAML markup for the window.":::
 
-1. Inside the `<Grid>` item, start typing *\<Button*. Intellisense offers you a button option. Press **Tab** to accept.
+1. Inside the `<Grid>` item, start typing `<Button`. Intellisense offers you a button option. Press **Tab** to accept.
 
    :::image type="content" source="media/vs-2022/winui-button-control.png" alt-text="Screenshot showing 'Button' highlighted in the XAML editor.":::
 
@@ -104,7 +104,7 @@ It's time to start developing. Here you add a button control, add an action to t
 
    :::image type="content" source="media/vs-2022/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor, with the value of the Content property changed to Hello World!":::
 
-1. Place your cursor in the line before `HorizontalAlignment` and start typing *click*. Intellisense offers a new event handler called **Button_Click**. You work with that code in the next section.
+1. Place your cursor in the `<Button>` element's start tag (after the existing attributes, such as `Content`) and start typing *Click*. Intellisense offers a new event handler called **Button_Click**. You work with that code in the next section.
 
    :::image type="content" source="media/vs-2022/winui-button-click-event-highlighted.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor with the click event of the button highlighted.":::
 
@@ -128,16 +128,16 @@ An *event handler* sounds complicated, but it's just another name for code that 
 
    ```csharp
    private async void Button_Click(object sender, RoutedEventArgs e)
-      {
-         var welcomeDialog = new ContentDialog()
-         {
-             Title = "Hello from HelloWorld",
-             Content = "Welcome to your first Windows App SDK app.",
-             CloseButtonText = "Ok",
-             XamlRoot = ((FrameworkElement)sender).XamlRoot
-         };
-         await welcomeDialog.ShowAsync();
-      }
+   {
+       var welcomeDialog = new ContentDialog()
+       {
+           Title = "Hello from HelloWorld",
+           Content = "Welcome to your first Windows App SDK app.",
+           CloseButtonText = "Ok",
+           XamlRoot = ((FrameworkElement)sender).XamlRoot
+       };
+       await welcomeDialog.ShowAsync();
+   }
    ```
 
 #### What did we just do?
