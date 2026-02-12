@@ -54,11 +54,11 @@ To avoid losing your Azure assets, choose one of these options:
 Your available software downloads depend on your subscription level. For details, see the [list of available software downloads](software-download-list.md).
 
 > [!TIP]
-> The software titles that you see on the [Your Downloads and Product Keys](https://my.visualstudio.com/downloads) page depends on the highest subscription level assigned to your sign-in email address. If you have Visual Studio Enterprise and Visual Studio Dev Essentials, you see Visual Studio Enterprise titles regardless of which membership you're signed in with.
+> The software titles that you see on the [Downloads](https://my.visualstudio.com/downloads) page of the subscription portal depends on the highest subscription level assigned to your sign-in email address. If you have Visual Studio Enterprise and Visual Studio Dev Essentials, you see Visual Studio Enterprise titles regardless of which membership you're signed in with.
 
 ## What happens to other benefits?
 
-Other benefits behave differently, depending on type.
+Other benefits behave differently, depending on their type.
 
 ### Benefits that have a fixed length
 

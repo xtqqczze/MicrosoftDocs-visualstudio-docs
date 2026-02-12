@@ -26,11 +26,11 @@ When you go to the [Visual Studio subscription portal](https://my.visualstudio.c
 
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/6d1b9008-3c87-4a29-87ac-c1b134130f51?r=779528946203]
 
-Each area of the portal provides you with capabilities:
+Each tab in the portal opens a page that provides capabilities:
 
-+ **Benefits**: Go to this tab to see which benefits your subscription includes, and to activate them. You can filter the list of benefits by **Tools**, **Professional Development**, or **Support** to more easily find the benefits that you want to activate.
++ **Benefits**: Use this page to see which benefits your subscription includes, and to activate them. You can filter the list of benefits by **Tools**, **Professional Development**, or **Support** to more easily find the benefits that you want to activate.
 + **Downloads**: Depending on which subscription you have, you can access product updates, patches, and full versions of hundreds of products and versions.
-+ **Product keys**: Use this page to access the product keys that you need for installing and activating the software that you download from the **Downloads** page.
++ **Product Keys**: Use this page to access the product keys that you need for installing and activating the software that you download from the **Downloads** page.
 + **Subscriptions**: If you have more than one subscription, you can view and switch between them on this page. You can also view expiration dates, find support information, and even renew certain types of subscriptions.
 + **Get Help**: This page is your pathway to support for your subscriptions. You can view frequently asked questions, submit support cases, and access helpful information such as subscription and admin portal documentation.
 + **Marketplace**: If you're looking for extensions for Visual Studio, this page is the place to find a large collection of the latest and most popular extensions for your integrated development environment (IDE).
@@ -45,7 +45,7 @@ Visual Studio is a comprehensive IDE for .NET and C++ developers on Windows. Its
 
 ### Individual Azure credits
 
-Most Visual Studio subscriptions include Azure credits every month that you can use to explore and try Azure services. When you activate your credits, you create a new Azure subscription, where you can start using them right away. No credit card is required.
+Most Visual Studio subscriptions include Azure credits every month that you can use to explore and try Azure services. When you activate your credits, you create a new Azure subscription where you can start using them right away. No credit card is required.
 
 The number of Azure credits that you receive depends on the type of your Visual Studio subscription. When you reach the monthly cap for your credits, your Azure services stop until your next monthly credits are added. The alternative is to remove the spending cap by upgrading to pay-as-you-go pricing.
 
@@ -57,14 +57,9 @@ To start using Azure, see the [Get started with your individual Azure Credit Sub
 
 The concept of DevOps combines development and operations. DevOps is the union of people, process, and technology to continually provide value to customers.
 
-What does DevOps mean for teams? DevOps enables formerly siloed roles (development, IT operations, quality engineering, and security) to coordinate and collaborate for the production of better, more reliable products. When teams adopt a DevOps culture along with DevOps practices and tools, they gain the ability to better respond to customer needs, increase confidence in the applications they build, and achieve business goals faster.
+What does DevOps mean for teams? DevOps enables formerly siloed roles (development, IT operations, quality engineering, and security) to coordinate and collaborate for the production of better, more reliable products. When teams adopt a DevOps culture along with DevOps practices and tools, they gain the ability to better respond to customer needs, increase confidence in the applications that they build, and achieve business goals faster.
 
 As an active Visual Studio subscriber, you can use features in the Azure DevOps service that are included with your subscription. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you. [Get started with using Azure DevOps](vs-azure-devops.md).
-
-## Resources
-
-+ [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp)
-+ [Subscription benefits](https://my.visualstudio.com/benefits)
 
 ## Related content
 

@@ -15,11 +15,11 @@ If an admin in your work or school organization assigned your Visual Studio subs
 > [!TIP]
 > If your admin removes your subscription, they might be planning to issue you a different subscription. If you receive a notification that your subscription is removed, you might want to ask your admin if another subscription is available. In the [subscription portal](https://my.visualstudio.com), select the **Contact my admin** button.
 
-This article also provides information for admins about why Microsoft might remove subscriptions and what happens when this removal occurs.
+This article also provides information for admins about why Microsoft might remove subscriptions and what happens after removal.
 
 ## Changes to benefits after subscription removal
 
-After an admin removes your subscription, the changes that you see for a specific benefit depend on the benefit itself. The following sections describe some examples and steps for making sure that you have access to things like your Azure assets.
+After an admin removes your subscription, the changes for a specific benefit depend on the benefit itself. The following sections describe some examples and steps for making sure that you have access to things like your Azure assets.
 
 ### Visual Studio IDE
 
@@ -33,12 +33,12 @@ When your subscription is removed, you no longer accrue individual Azure credits
 
 To avoid losing your assets, make sure to take one of the following steps if your subscription is removed:
 
-+ Convert the subscription to pay-as-you-go billing. For details, see the [Pay-As-You-Go Dev/Test](https://azure.microsoft.com/offers/ms-azr-0023p/) page. You need to attach a payment instrument such as a credit card to this subscription.
++ Convert the subscription to pay-as-you-go pricing. For details, see the [Pay-As-You-Go Dev/Test](https://azure.microsoft.com/offers/ms-azr-0023p/) page. You need to attach a payment instrument such as a credit card to this subscription.
 + Move your assets to another Azure subscription if one is available to you. For example, you might have an Azure subscription as part of a different Visual Studio subscription. For more information, see [Change directory tenants with your Azure subscriptions](/azure/devtest/offer/how-to-change-directory-tenants-visual-studio-azure).
 
 ### Software downloads and product keys
 
-Access to software downloads and product keys from within the subscription's portal is lost.
+Access to software downloads and product keys from the subscription portal is lost.
 
 ### Azure DevOps
 
@@ -71,16 +71,13 @@ If a subscription is removed, the subscriber loses access to the subscription. I
 
 ### Anonymization of Visual Studio subscriber information
 
-When an event occurs that blocks a subscriber's use of a subscription, personal information (such as name and sign-in account) is scrambled to render it unusable. This *anonymization* helps safeguard the subscriber's personal information. These events can include:
-
-+ Expiration of the subscription.
-+ Deletion of the subscriber's sign-in account.
+When an event blocks a subscriber's use of a subscription, personal information (such as name and sign-in account) is scrambled to render it unusable. This *anonymization* helps safeguard the subscriber's personal information.
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-intro-sentence.md)]
 
-Events that make a subscription unusable to a subscriber trigger anonymization. How quickly the anonymization occurs depends on the type of subscription and the triggering event.
+How quickly anonymization occurs depends on the type of subscription and the triggering event.
 
-| Subscription type | Event triggering anonymization | When anonymization occurs |
+| Subscription type | Event that triggers anonymization | When anonymization occurs |
 | ----------------- | ------------------------------ | ---------------- |
 | Visual Studio Dev Essentials | The subscriber opts out of the program or doesn't accept the terms of use. | 30 days |
 | Visual Studio subscriptions purchased  through the Microsoft Store (retail) | The subscription expires or isn't activated. | 360 days |

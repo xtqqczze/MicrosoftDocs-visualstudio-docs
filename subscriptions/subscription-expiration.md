@@ -45,7 +45,7 @@ Azure DevOps acquired through a Visual Studio subscription is unavailable.
 
 Monthly Azure credit allotments continue for a limited time after expiration of your subscription. Unused credits already applied to your Azure subscription in the current month are still available for your use.
 
-If you want to continue using Azure resources from that subscription after your credits are exhausted, you can either [transfer those resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription or [convert your existing subscription to pay-as-you-go billing](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal).
+If you want to continue using Azure resources from that subscription after your credits are exhausted, you can either [transfer those resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription or [convert your existing subscription to pay-as-you-go pricing](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal).
 
 ### Other benefits
 
@@ -61,7 +61,7 @@ For assistance with sales, accounts, and billing for your Visual Studio subscrip
 
 + To prevent your subscription from expiring, be sure to renew before its expiration date. You can find the expiration date for your subscription on the [Subscriptions](https://my.visualstudio.com/subscriptions) page of the subscription portal.
 + If your work or school provided your subscription, you might want to [contact your subscription admin](contact-my-admin.md) for assistance with your subscription or for questions about transferring Azure resources to another subscription.
-+ If you want to purchase a new subscription, you can explore purchasing options on the [pricing page](https://visualstudio.microsoft.com/vs/pricing).
++ If you want to purchase a new subscription, you can explore purchasing options on the [Visual Studio subscriptions pricing](https://visualstudio.microsoft.com/vs/pricing) page.
 
 ## Related content
 

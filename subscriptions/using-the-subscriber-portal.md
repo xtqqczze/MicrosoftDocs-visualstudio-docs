@@ -17,17 +17,17 @@ Sign in to the portal by using the identity that's associated with your subscrip
 > [!NOTE]
 > The Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers who try to sign in to the Visual Studio integrated development environment (IDE). To access Visual Studio subscriptions, your organization needs to have a public tenant. For assistance in creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).
 
-You can:
+For more information about sign-in methods, see:
 
 + [Sign in by using your Microsoft account](sign-in-msa.md)
 + [Sign in by using your work or school account](sign-in-work.md)
 + [Sign in by using GitHub](sign-in-github.md)
 
-The portal has six pages: **Benefits**, **Downloads**, **Product Keys**, **Subscriptions**, **Get Help**, and **Marketplace**. Each page provides you with access to products or services included with your subscription.
+The portal has six tabs that open pages: **Benefits**, **Downloads**, **Product Keys**, **Subscriptions**, **Get Help**, and **Marketplace**. Each page gives you access to products or services included with your subscription.
 
 ## Benefits
 
-The tools, services, and partner offers included with your subscription are displayed as tiles on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page. Not all benefits are included with all subscriptions. The tiles are grouped into three categories:
+The tools, services, and partner offers included with your subscription appear as tiles on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page. Not all benefits are included with all subscriptions. The tiles are grouped into three categories:
 
 + **Tools**: This category is where you find the core development tools, such as the Visual Studio IDE, Azure DevOps, and partner tools. It also contains other Azure services and Microsoft 365 Apps for Enterprise E5.
 
@@ -51,7 +51,7 @@ The [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~do
 
 ## Get Help
 
-In addition to the individual benefits found in the **Support** category on the **Benefits** page, the **Get Help** page provides access to resources for maximizing your Visual Studio subscription. Access [support resources](https://aka.ms/vssubscriberhelp) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
+In addition to the individual benefits found in the **Support** category on the **Benefits** page, the [Get Help](https://my.visualstudio.com/gethelp) page provides access to resources for maximizing your Visual Studio subscription. Support resources can help you resolve technical issues or questions related to subscription sales, accounts, and billing.
 
 ## Marketplace
 
