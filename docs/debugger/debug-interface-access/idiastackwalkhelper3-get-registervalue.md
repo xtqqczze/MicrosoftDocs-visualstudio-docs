@@ -4,6 +4,7 @@ title: "IDiaStackWalkHelper3::get_registerValue"
 ms.date: "02/12/2026"
 ms.topic: "reference"
 ms.custom: awp-ai
+ai-usage: ai-assisted
 dev_langs:
   - "C++"
 helpviewer_keywords:

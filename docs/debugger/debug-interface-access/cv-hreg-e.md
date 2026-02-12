@@ -3,6 +3,8 @@ title: CV_HREG_e
 description: Get reference information about the CV_HREG_e enumeration type, which specifies a target register in the debug interface access SDK.
 ms.date: "02/12/2026"
 ms.topic: "reference"
+ms.custom: awp-ai
+ai-usage: ai-assisted
 dev_langs:
   - "C++"
 helpviewer_keywords:
