@@ -19,7 +19,7 @@ This article also provides information for admins about why Microsoft might remo
 
 ## Changes to benefits after subscription removal
 
-After an admin removes your subscription, the changes that you see for a specific benefit depends on the benefit itself. The following sections describe some examples and steps for making sure that you have access to things like your Azure assets.
+After an admin removes your subscription, the changes that you see for a specific benefit depend on the benefit itself. The following sections describe some examples and steps for making sure that you have access to things like your Azure assets.
 
 ### Visual Studio IDE
 

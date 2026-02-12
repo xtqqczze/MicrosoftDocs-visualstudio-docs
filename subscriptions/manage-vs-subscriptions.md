@@ -30,28 +30,20 @@ Another way to switch between subscriptions is to select the **Subscriptions** t
 If your subscription isn't visible:
 
 + The subscription might be expired. Only active subscriptions appear in the subscription portal.
-+ The subscription might be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you only see one at a time. To switch to a different subscription, sign out of the portal and sign in with the email that's associated with the desired subscription.
++ The subscription might be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you see only one at a time. To switch to a different subscription, sign out of the portal and sign in with the email address that's associated with the desired subscription.
 + If your company buys subscriptions through a volume license, it's possible that your admin didn't assign one to you or reassigned your subscription to another user.
 
 ## Renew subscriptions
 
-### Standard subscriptions
++ **Standard subscriptions**: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there. If your company buys subscriptions through a volume license, your admin should contact a reseller to renew your subscription.
 
-If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there.
++ **Cloud subscriptions**: Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it remains active.
 
-If your company buys subscriptions through a volume license, your admin should contact a reseller to renew your subscription.
++ **Subscriptions acquired through programs**: If you get a subscription through a program, the subscription is tied to your participation in the program. For information about renewals, reach out to your program contacts. Common programs include:
 
-### Cloud subscriptions
-
-Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it remains active.
-
-### Subscriptions acquired through programs
-
-If you get a subscription through a program, the subscription is tied to your participation in the program. For information about renewals, reach out to your program contacts. Common programs include:
-
-+ [Azure Dev Tools for Teaching](https://azureforeducation.microsoft.com/Institutions)
-+ [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
-+ [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
+  + [Azure Dev Tools for Teaching](https://azureforeducation.microsoft.com/Institutions)
+  + [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
+  + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
 ## Transfer subscriptions
 
@@ -149,7 +141,7 @@ See these articles:
 + [Delete subscriptions](delete-license.md)
 + [Determine maximum usage](maximum-usage.md)
 
-## Where can I get support for my Visual Studio subscriptions?
+### Where can I get support for my Visual Studio subscriptions?
 
 For assistance with sales, accounts, and billing for your Visual Studio subscriptions, go to the [Get Help](https://aka.ms/vssubscriberhelp) page of the subscription portal.
 
