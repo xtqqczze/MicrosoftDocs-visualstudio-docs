@@ -118,7 +118,7 @@ An *event handler* sounds complicated, but it's just another name for code that 
 
    Here's where things get interesting. The default event handler looks like this:
 
-   :::image type="content" source="media/vs-2022/winui-button-click-code.png" alt-text="Screenshot showing the C# code for the default myButton_Click event handler.":::
+   :::image type="content" source="media/vs-2022/winui-button-click-code.png" alt-text="Screenshot showing the C# code for the default Button_Click event handler.":::
 
    Let's change it, so it looks like this:
 
