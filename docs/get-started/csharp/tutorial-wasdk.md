@@ -148,7 +148,7 @@ The code uses the **ContentDialog** control to display a welcome message in a mo
 
 It's time to build, deploy, and launch the Hello World Windows App SDK app to see what it looks like. Here's how.
 
-1. Use the Play button start the application on the local machine. It has the text **HelloWorld (Package)**.
+1. Use the Play button to start the application on the local machine. It has the text **HelloWorld (Package)**.
 
    :::image type="content" source="media/vs-2022/winui-start-or-debug.png" alt-text="Screenshot showing the drop-down box open next to the Play button with 'HelloWorld (Package)' selected.":::
 
