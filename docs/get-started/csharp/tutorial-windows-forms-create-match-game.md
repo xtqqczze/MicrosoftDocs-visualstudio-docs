@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 08/23/2024
+ms.date: 02/13/2026
 ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to learn about using the Visual Studio IDE to create a Windows Forms application. 
@@ -37,7 +37,7 @@ In this first tutorial, you learn how to:
 
 ## Prerequisites
 
-You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+You need Visual Studio to complete this tutorial. For a free version, see [Visual Studio downloads](https://visualstudio.microsoft.com/vs/).
 
 > [!NOTE]
 > This tutorial requires the **Windows Forms App (.NET Framework)** project template. During installation, select the **.NET desktop development** workload:
@@ -66,8 +66,7 @@ The first step of creating your game is to create a Windows Forms App project.
 
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/configure-new-project.png" alt-text="Screenshot of the Configure your new project window.":::
 
-Visual Studio creates a *solution* for your app.
-A solution is a container for the projects and files that your app needs.
+Visual Studio creates a *solution* for your app. A solution is a container for the projects and files that your app needs.
 
 At this point, Visual Studio displays an empty form in the Windows Forms Designer.
 
@@ -80,10 +79,10 @@ In this section, you create the four-by-four grid for the game.
    - Change the **Text** property from **Form1** to **Matching Game**. This text appears at the top of the game window.
    - Set the size of the form. You can change it either by setting the **Size** property to **550, 550** or by dragging the corner of the form until you see the correct size at the bottom of the Visual Studio IDE.
 
-1. Select the **Toolbox** tab on the left side of the IDE.
-   If you don't see it, select **View** > **Toolbox** from the menu bar or select **Ctrl**+**Alt**+**X**.
+1. Select the **Toolbox** tab on the left side of the IDE. If you don't see it, select **View** > **Toolbox** from the menu bar or select **Ctrl**+**Alt**+**X**.
 
 1. Drag a <xref:System.Windows.Forms.TableLayoutPanel> control from the **Containers** category in the toolbox, or double-click it.
+
    Set the following properties for the panel in the **Properties** window.
 
    - Set the **BackColor** property to **CornflowerBlue**.
@@ -94,20 +93,14 @@ In this section, you create the four-by-four grid for the game.
      > [!NOTE]
      > The colors aren't in alphabetical order. **CornflowerBlue** is near the bottom of the list.
 
-   - Set the **Dock** property to **Fill** by selecting the down arrow and then selecting the large middle button.
-     This option spreads the table out so that it covers the entire form.
-   - Set the **CellBorderStyle** property to **Inset**.
-     This value provides visual borders between each cell on the board.
-   - Select the triangle button in the upper-right corner of the TableLayoutPanel to display its task menu.
-     On the task menu, select **Add Row** twice to add two more rows.
-     Then select **Add Column** twice to add two more columns.
-   - On the task menu, select **Edit Rows and Columns** to open the **Column and Row Styles** window.
-     For each column, select the **Percent** option, and then set each column's width to **25** percent.
+   - Set the **Dock** property to **Fill** by selecting the down arrow and then selecting the large middle button. This option spreads the table out so that it covers the entire form.
+   - Set the **CellBorderStyle** property to **Inset**. This value provides visual borders between each cell on the board.
+   - Select the triangle button in the upper-right corner of the TableLayoutPanel to display its task menu. On the task menu, select **Add Row** twice to add two more rows. Then select **Add Column** twice to add two more columns.
+   - On the task menu, select **Edit Rows and Columns** to open the **Column and Row Styles** window. For each column, select the **Percent** option, and then set each column's width to **25** percent.
    - Select **Rows** from the list at the top of the window, and then set each row's height to **25** percent.
    - When you're done, select **OK** to save your changes.
 
-Your TableLayoutPanel is now a four-by-four grid with 16 equally sized square cells.
-These rows and columns are where the icons appear later.
+Your TableLayoutPanel is now a four-by-four grid with 16 equally sized square cells. These rows and columns are where the icons appear later.
 
 :::image type="content" source="../media/tutorial-windows-forms-create-match-game/match-game-grid.png" alt-text="Screenshot of the Forms tab with a four-by-four grid.":::
 
@@ -127,10 +120,8 @@ In this section, you create and format labels that appear during the game.
    - Set the **BackColor** property of the label to **CornflowerBlue**.
    - Set the **AutoSize** property to **False**.
    - Set the **Dock** property to **Fill**.
-   - Set the **TextAlign** property to **MiddleCenter** by selecting the down arrow button next to the property and then selecting the middle button.
-     This value ensures the icon appears in the middle of the cell.
-   - Select the **Font** property. An ellipsis (**...**) button appears.
-     Select the ellipsis and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **48**.
+   - Set the **TextAlign** property to **MiddleCenter** by selecting the down arrow button next to the property and then selecting the middle button. This value ensures the icon appears in the middle of the cell.
+   - Select the **Font** property. An ellipsis (**...**) button appears. Select the ellipsis and set the **Font** value to **Webdings**, the **Font Style** to **Bold**, and the **Size** to **48**.
    - Set the **Text** property of the label to the letter **c**.
 
    The upper-left cell of the TableLayoutPanel now contains a black box centered on a blue background.
@@ -149,6 +140,7 @@ In this section, you create and format labels that appear during the game.
    Then paste it by using **Ctrl**+**V**  or **Edit** > **Paste**.
 
    A copy of the first Label appears in the second cell of the TableLayoutPanel.
+
    Paste it again, and another Label appears in the third cell. Keep pasting Label controls until all of the cells are filled.
 
 This step completes the layout for your form.
