@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Subscription Portal
+title: Subscription Portal
 author: joseb-rdc
 ms.author: amast
 manager: shve

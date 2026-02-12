@@ -1,5 +1,5 @@
 ---
-title: Get Started with Your New Visual Studio Subscription
+title: Get Started with Your New Subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve

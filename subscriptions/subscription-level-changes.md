@@ -1,5 +1,5 @@
 ---
-title: Effects of changing Visual Studio subscription levels | Visual Studio Marketplace
+title: Effects of Changing Subscription Levels
 author: joseb-rdc
 ms.author: amast
 manager: shve
@@ -10,20 +10,11 @@ description: Learn about the effects of upgrading or downloading your Visual Stu
 
 # What happens when you change Visual Studio subscription levels?
 
-In Visual Studio subscriptions, the software, tools, services, and other benefits you receive depend on your subscription level. Higher subscriptions level includes more robust benefits. 
+In Visual Studio subscriptions, the software, tools, services, and other benefits that you receive depend on your subscription level. Higher subscription levels include more robust benefits.
 
-You might need to change levels for several reasons. You might want a more full‑featured version of the Visual Studio IDE. Your company’s subscription admin might also adjust your subscription based on your role, your current project, or purchasing needs.
+You might need to change levels for several reasons. For example, you might want a more full‑featured version of the Visual Studio integrated development environment (IDE). Your company's subscription admin might also adjust your subscription based on your role, your current project, or purchasing needs.
 
 Depending on your new subscription level, you might need to take action to keep access to your benefits.
-
-## What's on this page
-
-+ How changes to your subscription level affect key benefits  
-+ What happens to Visual Studio IDE access  
-+ How individual Azure credits are affected  
-+ How software downloads work  
-+ What changes for partner benefits  
-+ Where to get help and what to do next 
 
 ## Do you need to take action?
 
@@ -40,10 +31,10 @@ The changes very by benefit type. This article provides examples and explains th
 ### What happens to Visual Studio IDE access?
 
 For information about which version of Visual Studio is included in your subscription, check out our [Visual Studio subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/). Visit the [Compare Visual Studio 2026 Editions](https://visualstudio.microsoft.com/vs/compare/) page to learn about the differences between the editions included in your subscription.
- 
+
 ### If you upgrade
 
-You get access to the IDE edition included in your new subscription. To use it, uninstall the lower version and install the higher version
+You get access to the IDE edition included in your new subscription. To use it, uninstall the lower version and install the higher version.
 
 ## If you downgrade
 
@@ -59,48 +50,43 @@ When your subscription changes (upgrade, downgrade, or new subscription ID), the
 
 Choose one of these options:
 
-+ Convert the old subscription to pay‑as‑you‑go (https://azure.microsoft.com/offers/ms-azr-0023p/). A payment method is required.  
++ Convert the old subscription to [pay‑as‑you‑go](https://azure.microsoft.com/offers/ms-azr-0023p/). A payment method is required.  
 + Create a new Azure subscription using your new benefits and move your existing assets into the new subscription.
- 
+
   > [!IMPORTANT]
-  > It's important to move your assets or convert the old subscription to pay‑as‑you‑go to avoid losing existing resources. 
- 
+  > It's important to move your assets or convert the old subscription to pay‑as‑you‑go to avoid losing existing resources.
+
 ### What happens to software downloads?
 
-Your available software downloads depend on your subscription level. For details, see [list of available software downloads](software-download-list.md) article. 
+Your available software downloads depend on your subscription level. For details, see [list of available software downloads](software-download-list.md) article.
 
-  > [!TIP] 
-  > The software titles you see on the [downloads page](https://my.visualstudio.com/downloads) depends on the highest subscription level assigned to your sign-in email address. If you have Visual Studio Enterprise and Visual Studio Dev Essentials, you see Visual Studio Enterprise titles regardless of which membership you're signed in with.
+> [!TIP]
+> The software titles you see on the [downloads page](https://my.visualstudio.com/downloads) depends on the highest subscription level assigned to your sign-in email address. If you have Visual Studio Enterprise and Visual Studio Dev Essentials, you see Visual Studio Enterprise titles regardless of which membership you're signed in with.
 
-### What happens to other benefits? 
+### What happens to other benefits?
 
 Other benefits behave differently depending on type.
 
 #### Benefits with a fixed length
 
-If you activated a time-based benefit before your subscription changed, you usually keep it for the remainder of its original term. For example, a six-month training benefit activated under Enterprise continues even if you're moved to Professional. 
+If you activated a time-based benefit before your subscription changed, you usually keep it for the remainder of its original term. For example, a six-month training benefit activated under Enterprise continues even if you're moved to Professional.
 
 #### Benefits that require authentication
 
-Some benefits require authentication each time you sign in. Authenticated benefits aren’t available after a downgrade if the new level doesn’t include them.
+Some benefits require authentication each time you sign in. Authenticated benefits aren't available after a downgrade if the new level doesn't include them.
 
 #### Benefits that aren't available in lower subscription levels
 
-If you're using benefits offered in your current subscription but not in the subscription to which yours is downgraded, you might lose access to those benefits. 
+If you're using benefits offered in your current subscription but not in the subscription to which yours is downgraded, you might lose access to those benefits.
 
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
 + For assistance or question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services? Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
 
-## See also
+## Related content
 
 + [Visual Studio documentation](/visualstudio/)
 + [Azure DevOps documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
-
-## Next steps
-
-+ Learn about [Azure DevOps](https://azure.microsoft.com/services/devops/) features
-+ Learn about [Visual Studio IDE features by edition](https://visualstudio.microsoft.com/vs/compare/)

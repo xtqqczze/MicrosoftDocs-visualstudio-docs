@@ -1,5 +1,5 @@
 ---
-title: Manage Visual Studio Subscriptions
+title: Manage Subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
