@@ -1,7 +1,7 @@
 ---
 description: "IDiaStackWalkHelper3::get_registerValue retrieves the value of the specified register with variable-size support."
 title: "IDiaStackWalkHelper3::get_registerValue"
-ms.date: "02/09/2026"
+ms.date: "02/12/2026"
 ms.topic: "reference"
 ms.custom: awp-ai
 dev_langs:
@@ -33,7 +33,7 @@ HRESULT get_registerValue(
 
 `index`
 
-[in] A value from the [`CV_HREG_e`](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to get the value from.
+[in] A value from the [`CV_HREG_e`](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to get the value from. This parameter value is primarily intended for the ARM64 SVE registers.
 
 `cbData`
 
