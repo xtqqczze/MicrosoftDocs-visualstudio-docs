@@ -29,7 +29,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
 
@@ -47,7 +47,7 @@ When you stage a change, Visual Studio creates a **Staged Changes** section. Onl
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
 
@@ -59,7 +59,7 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
 
@@ -94,7 +94,23 @@ To enable this feature, open the **Tools** > **Options** dialog, expand the **En
 
 :::moniker-end
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+
+In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
+
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
+
+![Screenshot showing GitHub code review comment.](./media/visualstudio/git-code-review-comment.png)
+
+To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
@@ -114,9 +130,34 @@ To remove all comments, use the **X** in the Git Changes window to close the Cop
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
 
-:::moniker range=">=vs-2022"
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Generate commit messages with GitHub Copilot Chat
+
+With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
+
+> [!NOTE]
+> To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md).
+
+![Screenshot showing AI-generated commit message.](./media/visualstudio/git-commit-message-ai.png)
+
+When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message text box to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 ## Generate commit messages with GitHub Copilot Chat
 
