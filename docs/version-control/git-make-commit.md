@@ -25,7 +25,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-changes-window.png" alt-text="Screenshot that shows the Git Changes window in Visual Studio.":::
 
 :::moniker-end
 
@@ -43,7 +43,7 @@ When you stage a change, Visual Studio creates a **Staged Changes** section. Onl
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-commit-message.png" alt-text="Screenshot that shows the Git commit dialog in Visual Studio.":::
 
 :::moniker-end
 
@@ -61,13 +61,13 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::moniker range="<=vs-2022"
 
-:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022." lightbox="media/vs-2022/git-file-version-compare.png":::
 
 :::moniker-end
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio." lightbox="media/visualstudio/git-file-version-compare.png":::
+:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="Screenshot that shows line-by-line comparison of file versions in Visual Studio." lightbox="media/visualstudio/git-file-version-compare.png":::
 
 :::moniker-end
 
@@ -132,13 +132,13 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio." lightbox="media/visualstudio/git-branch-commit-details.png":::
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="Screenshot that shows the Commit Details dialog in Visual Studio." lightbox="media/visualstudio/git-branch-commit-details.png":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022." lightbox="media/vs-2022/git-branch-commit-details.png":::
 
 :::moniker-end
 
@@ -176,7 +176,7 @@ When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI 
 
 You can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
 
-:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options.":::
+:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options." lightbox="./media/visualstudio/git-customize-commit-message-with-ai.png":::
 
 :::moniker-end
 :::moniker range="<=vs-2022"
