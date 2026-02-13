@@ -35,11 +35,11 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
 1. In your Visual Studio project, select **Windows Forms Designer**.
 
-1. Select the form, **Form1**.
+2. Select the form, **Form1**.
 
-1. On the menu bar, select **View** > **Code**. *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
+3. On the menu bar, select **View** > **Code**. *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
 
-1. Create a <xref:System.Random> object by adding a `new` statement near the top of the code in *Form1.cs* or *Form1.vb*.
+4. Create a <xref:System.Random> object by adding a `new` statement near the top of the code in *Form1.cs* or *Form1.vb*.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet1":::
@@ -55,7 +55,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    Your quiz needs variables to store the random numbers that it creates for each problem. Before using variables, you declare them, which means listing their names and data types.
 
-1. Add two integer variables to the form, and name them **addend1** and **addend2** in *Form1.cs* or *Form1.vb*.
+5. Add two integer variables to the form, and name them **addend1** and **addend2** in *Form1.cs* or *Form1.vb*.
 
    > [!NOTE]
    > An integer variable is known as an *int* in C# or an *Integer* in Visual Basic. This kind of variable stores a positive or negative number from -2147483648 through 2147483647 and can store only whole numbers, not decimals.
@@ -70,7 +70,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    ---
 
-1. Add a method that's named `StartTheQuiz()` to *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` eventually fills in all the problems and then starts the timer, so add this information to the summary comment. The function should look like the following code.
+6. Add a method that's named `StartTheQuiz()` to *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` eventually fills in all the problems and then starts the timer, so add this information to the summary comment. The function should look like the following code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
@@ -108,7 +108,7 @@ The next step is to declare variables and provide random values for the other ma
 
    ---
 
-1. Modify the `StartTheQuiz()` method in *Form1.cs* or *Form1.vb* by adding the following code, starting with the "Fill in the subtraction problem" comment.
+2. Modify the `StartTheQuiz()` method in *Form1.cs* or *Form1.vb* by adding the following code, starting with the "Fill in the subtraction problem" comment.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="51-94":::
