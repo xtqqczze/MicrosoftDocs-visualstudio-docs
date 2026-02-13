@@ -23,7 +23,17 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
+
+:::moniker-end
 
 ## Stage changes and make a commit
 
@@ -31,7 +41,17 @@ To stage changes when you're ready, select the **+** (plus) button on each file 
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
+
+:::moniker-end
 
 Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
@@ -39,7 +59,17 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio.":::
+
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 
