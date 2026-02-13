@@ -132,7 +132,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio.":::
 
 :::moniker-end
 
