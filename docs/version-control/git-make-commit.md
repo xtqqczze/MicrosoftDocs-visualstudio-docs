@@ -67,7 +67,7 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio." lightbox="media/visualstudio/git-file-version-compare.png":::
 
 :::moniker-end
 
@@ -132,7 +132,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio." lightbox="media/visualstudio/git-branch-commit-details.png":::
 
 :::moniker-end
 
