@@ -168,7 +168,7 @@ As you type, IntelliSense suggests possible code.
 
    ---
 
-11. Add the following comment to your code.
+12. Add the following comment to your code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::
