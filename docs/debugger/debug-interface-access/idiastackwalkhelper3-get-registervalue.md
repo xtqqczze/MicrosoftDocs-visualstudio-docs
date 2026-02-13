@@ -58,6 +58,8 @@ You can pass `pbData = nullptr` with `cbData = 0` to query only the required siz
 
 Register sizes can differ between CPU architectures. This method supports variable-sized registers, including large vector registers such as ARM64 SVE.
 
+For registers 64-bits or less (for example, 1-8 bytes), use `get_registerValue` and `put_registerValue` in [IDiaStackWalkHelper](../debug-interface-access/idiastackwalkhelper.md).
+
 ## See also
 
 - [`IDiaStackWalkHelper3`](../../debugger/debug-interface-access/idiastackwalkhelper3.md)

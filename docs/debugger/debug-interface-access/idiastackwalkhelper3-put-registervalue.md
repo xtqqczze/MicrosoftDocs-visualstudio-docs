@@ -33,7 +33,7 @@ HRESULT put_registerValue(
 
 `index`
 
-[in] A value from the [`CV_HREG_e`](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to modify.
+[in] A value from the [`CV_HREG_e`](../../debugger/debug-interface-access/cv-hreg-e.md) enumeration specifying which register to modify. This parameter value is primarily intended for the ARM64 SVE registers.
 
 `cbData`
 
@@ -52,6 +52,8 @@ If successful, returns `S_OK`; otherwise, returns an error code.
 Allows modifying register values during stack walking, for example, to support unwinding or simulating execution state.
 
 Supports variable-sized registers, including large vector registers such as ARM64 SVE.
+
+For registers 64-bits or less (for example, 1-8 bytes), use `get_registerValue` and `put_registerValue` in [IDiaStackWalkHelper](../debug-interface-access/idiastackwalkhelper.md).
 
 ## See also
 
