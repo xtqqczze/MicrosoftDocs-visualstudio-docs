@@ -68,7 +68,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
    ---
 
-1. Add a method that's named `StartTheQuiz()` to *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` eventually fills in all the problems and then start the timer, so add this information to the summary comment. The function should look like the following code.
+1. Add a method that's named `StartTheQuiz()` to *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` eventually fills in all the problems and then starts the timer, so add this information to the summary comment. The function should look like the following code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
