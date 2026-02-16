@@ -24,7 +24,7 @@ When you go to the [Visual Studio subscription portal](https://my.visualstudio.c
 
 ## Quick tour of the portal
 
-> [!VIDEO https://medius.microsoft.com/Embed/video-nc/6d1b9008-3c87-4a29-87ac-c1b134130f51?r=779528946203]
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/530b226d-039f-46ee-999c-8c2dc427d3e1?r=118333747213]
 
 Each tab in the portal opens a page that provides capabilities:
 
@@ -37,7 +37,7 @@ Each tab in the portal opens a page that provides capabilities:
 
 ## Benefits
 
-The benefits included in your subscription depend on which subscription you have. Most subscriptions include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some subscriptions also include benefits such as Pluralsight training, Microsoft 365 Developer, and Microsoft 365 Apps for enterprise. [Learn more about your benefits](https://my.visualstudio.com/Benefits?mkt).
+The benefits included in your subscription depend on which subscription you have. Most subscriptions include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some subscriptions also include benefits such as Pluralsight training, a Microsoft 365 E5 developer subscription, and Microsoft 365 Apps for enterprise. [Learn more about your benefits](https://my.visualstudio.com/Benefits?mkt).
 
 ### Visual Studio
 

@@ -33,7 +33,7 @@ The tools, services, and partner offers included with your subscription appear a
 
 + **Professional Development**: This category contains benefits such as online training from Microsoft and partners, along with a subscription to CODE Magazine. These benefits help you advance your development skills and stay abreast of all things code.
 
-+ **Support**: Do you have a question about Azure? Get help from the Azure community via forums or take advantage of Azure Advisory Chat (preview). The Concierge Chat service is available to help you find technical documentation and product information, and to assist with subscription-related questions. Some subscriptions also include incident-based technical support to help you resolve issues with a wide range of Microsoft products running in dev/test environments.
++ **Support**: Do you have a question about Azure? You can get help from the Azure community via forums. The Concierge Chat service is available to help you find technical documentation and product information, and to assist with subscription-related questions. Some subscriptions also include incident-based technical support to help you resolve issues with a wide range of Microsoft products running in dev/test environments.
 
 ## Downloads
 
