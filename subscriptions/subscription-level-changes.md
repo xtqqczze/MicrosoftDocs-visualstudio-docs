@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.date: 02/03/2026
 ms.topic: concept-article
-description: Learn about the effects of upgrading or downloading your Visual Studio subscription level.
+description: Learn about the effects of upgrading or downgrading your Visual Studio subscription level.
 ---
 
 # What happens when you change Visual Studio subscription levels?
