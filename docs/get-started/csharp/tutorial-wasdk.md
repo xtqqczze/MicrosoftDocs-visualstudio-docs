@@ -31,13 +31,13 @@ In this introduction to the Visual Studio integrated development environment (ID
     
 On the **Workloads** tab of the Visual Studio Installer, select the following:
 
-::: moniker range">=visualstudio"
+::: moniker range=">=visualstudio"
     
 For **C#** app development using the Windows App SDK, select **WinUI application development**.
     
 ::: moniker-end
 
-::: moniker range"=vs-2022"
+::: moniker range="vs-2022"
 
 For **C#** app development using the Windows App SDK, select **WinUI application development**.
     
@@ -52,7 +52,7 @@ For details, see [Install tools for the Windows App SDK](/windows/apps/windows-a
 
 First, create a WinUI 3 project. The project type comes with all the template files you need, before you even add anything!
 
-::: moniker range">=visualstudio"
+::: moniker range=">=visualstudio"
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
@@ -66,17 +66,17 @@ First, create a WinUI 3 project. The project type comes with all the template fi
 
 ::: moniker-end
 
-::: moniker range"=vs-2022"
+::: moniker range="vs-2022"
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
 1. On the **Create a new project** screen, enter *winui* in the search box, choose the C# template for **C# template for Blank App, Packaged (WinUI 3 in Desktop)**, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/winui-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WinUI' entered in the search box, and the WinUI Blank App (Packaged) project template highlighted.":::
+   :::image type="content" source="media/vs-2022/winui-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog in Visual Studio 2022 with 'WinUI' entered in the search box, and the WinUI Blank App (Packaged) project template highlighted.":::
 
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
-   :::image type="content" source="media/vs-2022/winui-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWorld' entered in the Project name field.":::
+   :::image type="content" source="media/vs-2022/winui-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio 2022 with 'HelloWorld' entered in the Project name field.":::
 
 ::: moniker-end
 
@@ -93,7 +93,7 @@ It's time to start developing. Here you add a button control, add an action to t
 
 ### Add a button to the Design canvas
 
-::: moniker range">=visualstudio"
+::: moniker range=">=visualstudio"
 
 1. In the **Solution Explorer**, double-click *MainWindow.xaml* to open the XAML markup editor.
 
@@ -101,7 +101,7 @@ It's time to start developing. Here you add a button control, add an action to t
 
    The **XAML Editor** is where you can add or change markup. Unlike UWP projects, WinUI 3 doesn't have a **Design** view.
 
-   :::image type="content" source="media/visualstudio/winui-xaml-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows the XAML markup for the window.":::
+   :::image type="content" source="media/visualstudio/winui-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows the XAML markup for the window.":::
 
 1. Inside the `<Grid>` item, start typing `<Button`. Intellisense offers you a button option. Press **Tab** to accept.
 
@@ -109,15 +109,15 @@ It's time to start developing. Here you add a button control, add an action to t
 
 ::: moniker-end
 
-::: moniker range"=vs-2022"
+::: moniker range="vs-2022"
 
 1. In the **Solution Explorer**, double-click *MainWindow.xaml* to open the XAML markup editor.
 
-   :::image type="content" source="media/vs-2022/winui-solution-explorer-mainwindow-xaml.png" alt-text="Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project, with the file MainWindow.xaml selected.":::  
+   :::image type="content" source="media/vs-2022/winui-solution-explorer-mainwindow-xaml.png" alt-text="Screenshot of the Solution Explorer window in Visual Studio 2022 showing the properties, references, assets, and files in the HelloWorld project, with the file MainWindow.xaml selected.":::  
 
    The **XAML Editor** is where you can add or change markup. Unlike UWP projects, WinUI 3 doesn't have a **Design** view.
 
-   :::image type="content" source="media/vs-2022/winui-xaml-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows the XAML markup for the window.":::
+   :::image type="content" source="media/vs-2022/winui-xaml-editor.png" alt-text="Screenshot showing MainWindow.xaml open in the Visual Studio 2022 IDE. The XAML Editor pane shows the XAML markup for the window.":::
 
 1. Review the **Button** control nested within the **StackPanel** at the root of the **Window**.
 
@@ -127,11 +127,11 @@ It's time to start developing. Here you add a button control, add an action to t
 
 ### Change the label on the button
 
-::: moniker range">=visualstudio"
+::: moniker range=">=visualstudio"
 
 1. In the **XAML Editor**, change Button Content value from its current value to "Hello World!".
 
-   :::image type="content" source="media/visualstudio/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor, with the value of the Content property changed to Hello World!":::
+   :::image type="content" source="media/visualstudio/winui-change-button-text.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor, with the value of the Content property changed to Hello World!":::
 
 1. Place your cursor in the `<Button>` element's start tag (after the existing attributes, such as `Content`) and start typing *Click*. Intellisense offers a new event handler called **Button_Click**. You work with that code in the next section.
 
@@ -139,15 +139,15 @@ It's time to start developing. Here you add a button control, add an action to t
 
 ::: moniker-end
 
-::: moniker range"=vs-2022"
+::: moniker range="vs-2022"
 
 1. In the **XAML Editor**, change Button Content value from its current value to "Hello World!".
 
-   :::image type="content" source="media/vs-2022/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor, with the value of the Content property changed to Hello World!":::
+   :::image type="content" source="media/vs-2022/winui-change-button-text-in-xaml-code-window.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor in Visual Studio 2022, with the value of the Content property changed to Hello World!":::
 
 1. Notice that the button has a **Click** event handler named *myButton_Click* specified, too. You work with that in the next step.
 
-   :::image type="content" source="media/vs-2022/winui-button-click-event-highlighted.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor with the click event of the button highlighted.":::
+   :::image type="content" source="media/vs-2022/winui-button-click-event-highlighted.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor in Visual Studio 2022 with the click event of the button highlighted.":::
 
 ::: moniker-end
 
@@ -155,7 +155,7 @@ It's time to start developing. Here you add a button control, add an action to t
 
 An *event handler* sounds complicated, but it's just another name for code that is called when an event happens. In this case, it adds an action triggered by the Hello World! button.
 
-::: moniker range">=visualstudio"
+::: moniker range=">=visualstudio"
 
 1. In **Solution Explorer**, double-click *MainWindow.xaml.cs*, the code-behind page.
 
@@ -167,7 +167,7 @@ An *event handler* sounds complicated, but it's just another name for code that 
 
    Let's change it, so it looks like this:
 
-   :::image type="content" source="media/visualstudio/winui-add-hello-world-async-code.png" alt-text="Screenshot showing the C# code for the new async myButton_Click event handler.":::
+   :::image type="content" source="media/visualstudio/winui-add-hello-world-code.png" alt-text="Screenshot showing the C# code for the new async myButton_Click event handler.":::
 
    Here's the code to copy and paste:
 
@@ -187,7 +187,7 @@ An *event handler* sounds complicated, but it's just another name for code that 
 
 ::: moniker-end
 
-::: moniker range"=vs-2022"
+::: moniker range="vs-2022"
 
 1. In **Solution Explorer**, double-click *MainWindow.xaml.cs*, the code-behind page.
 
@@ -195,11 +195,11 @@ An *event handler* sounds complicated, but it's just another name for code that 
 
    Here's where things get interesting. The default event handler looks like this:
 
-   :::image type="content" source="media/vs-2022/winui-button-click-code.png" alt-text="Screenshot showing the C# code for the default Button_Click event handler.":::
+   :::image type="content" source="media/vs-2022/winui-button-click-code.png" alt-text="Screenshot showing the C# code for the default Button_Click event handler in Visual Studio 2022.":::
 
    Let's change it, so it looks like this:
 
-   :::image type="content" source="media/vs-2022/winui-add-hello-world-async-code.png" alt-text="Screenshot showing the C# code for the new async myButton_Click event handler.":::
+   :::image type="content" source="media/vs-2022/winui-add-hello-world-async-code.png" alt-text="Screenshot showing the C# code for the new async myButton_Click event handler in Visual Studio 2022.":::
 
    Here's the code to copy and paste:
 
