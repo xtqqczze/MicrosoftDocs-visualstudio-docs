@@ -375,4 +375,11 @@ settings.json
 .dockit/
 .env
 .env.example
+<<<<<<< HEAD
 requirements.txt
+=======
+requirements.txt
+
+# Allow Visual Studio-specific Agent file
+!.github/agents/visualstudio-standards-check.agent.md
+>>>>>>> 119071653b107641c675bbd184f75461794a04d3
