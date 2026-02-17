@@ -121,7 +121,7 @@ The length of time that Microsoft maintains customer data depends on the purchas
 > [!NOTE]
 > If you choose to close your Microsoft account or Microsoft Entra account, your personal data is anonymized immediately. We don't fully remove all your personal data if you have active subscriptions.
 
-### How do I leave the Visual Studios Dev Essentials program?
+### How do I leave the Visual Studio Dev Essentials program?
 
 To leave the program:
 
