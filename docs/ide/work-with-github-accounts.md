@@ -50,13 +50,13 @@ In the Chat window, enter a prompt to start using Copilot. The **Get started wit
 
    :::moniker range="visualstudio"
 
-      :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="../ide/media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
    :::moniker range="vs-2022"
 
-      :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="../ide/media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
