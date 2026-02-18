@@ -48,16 +48,16 @@ In the Chat window, enter a prompt to start using Copilot. The **Get started wit
 - **Continue with GitHub** to setup Copilot Free for a new or existing GitHub account
 - **Continue with Google** to sign in with a Google account linked to your GitHub account
 
-   :::moniker range="visualstudio"
+   :::moniker range="<=vs-2022"
 
-      :::image type="content" source="../ide/media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
-   :::moniker range="vs-2022"
+   :::moniker range="visualstudio"
 
-      :::image type="content" source="../ide/media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
-
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+   
    :::moniker-end
 
 ### Add a GitHub account from the **profile card**
