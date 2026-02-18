@@ -40,9 +40,8 @@ You must have Visual Studio installed, including the **.NET Core cross-platform 
 
 ::: moniker range=">=vs-2022"
 
-If you need to install Visual Studio, for a free version, see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
-
-If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
+- If you need to install Visual Studio, for a free version, see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
+- If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
 ::: moniker-end
 
@@ -145,11 +144,11 @@ End Class
 
    In this tutorial, you take a closer look at this app using the debugger and get a look at the debugger features.
 
-2. Stop the debugger by pressing (**Shift** + **F5**) or select the red **Stop Debugging** button in the Debug Toolbar.
+1. Stop the debugger by pressing (**Shift** + **F5**) or select the red **Stop Debugging** button in the Debug Toolbar.
 
    :::image type="content" source="media/vs-2022/debug-toolbar-stop-button.png" alt-text="Screenshot showing the Debug Toolbar with the red Stop Debugging button highlighted.":::
 
-3. In the console window, press a key to close the console window.
+1. In the console window, press a key to close the console window.
 
 ::: moniker-end
 
@@ -165,7 +164,7 @@ End Class
 
    Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where Visual Studio suspends your running code. While suspended, you can look at the values of variables or the behavior of memory. You can see whether a branch of code runs.
 
-2. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button in the Debug Toolbar. The app starts, and the debugger runs to the line of code where you set the breakpoint.
+1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button in the Debug Toolbar. The app starts, and the debugger runs to the line of code where you set the breakpoint.
 
    :::image type="content" source="media/vs-2022/get-started-hit-breakpoint-vb.png" alt-text="Screenshot showing the Visual Studio Code editor window with execution stopped at a breakpoint.":::
 
@@ -225,7 +224,7 @@ This article uses the keyboard shortcuts, because it's a good way to get fast at
 
    :::image type="content" source="media/vs-2022/get-started-run-to-click-vb.png" alt-text="Screenshot showing the Run to Click button with tooltip highlighted on the left side of the code editor window.":::
 
-2. Select the **Run to Click** button.
+1. Select the **Run to Click** button.
 
    The debugger advances to the `Console.WriteLine` method.
 
@@ -309,7 +308,7 @@ For more information about the **Watch** window, see [Watch variables with Watch
 
    If it's closed, open it while code execution is paused in the debugger by choosing **Debug** > **Windows** > **Call Stack**.
 
-2. Select **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
+1. Select **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
    :::image type="content" source="media/vs-2022/get-started-call-stack-vb.png" alt-text="Screenshot showing the Visual Studio Call Stack window with a SendMessage method call highlighted in the top line.":::
 
