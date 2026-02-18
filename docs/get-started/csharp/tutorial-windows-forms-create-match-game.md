@@ -52,7 +52,7 @@ You need Visual Studio to complete this tutorial. For a free version, see [Visua
 
 The first step of creating your game is to create a Windows Forms App project.
 
-::: moniker range=">=visualstudio"
+::: moniker range="visualstudio"
 
 1. Open Visual Studio.
 
