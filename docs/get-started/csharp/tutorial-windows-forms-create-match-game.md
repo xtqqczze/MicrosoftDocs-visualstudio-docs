@@ -52,17 +52,13 @@ You need Visual Studio to complete this tutorial. For a free version, see [Visua
 
 The first step of creating your game is to create a Windows Forms App project.
 
+::: moniker range=">=visualstudio"
+
 1. Open Visual Studio.
 
 1. In the start window, select **Create a new project**.
 
-::: moniker range=">=visualstudio"
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio start window.":::
-:::moniker-end
-
-::: moniker range="vs-2022"
-   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio 2022 start window.":::
-:::moniker-end
 
 1. In the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **All project types** list.
 
@@ -70,13 +66,27 @@ The first step of creating your game is to create a Windows Forms App project.
 
 1. In the **Configure your new project** window, name your project **MatchingGame**, and then select **Create**.
 
-   ::: moniker range=">=visualstudio"
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/visualstudio/configure-new-project.png" alt-text="Screenshot of the Configure your new project window.":::
-   :::moniker-end
 
-   ::: moniker range="vs-2022"
+:::moniker-end
+
+::: moniker range="vs-2022"
+
+1. Open Visual Studio.
+
+1. In the start window, select **Create a new project**.
+
+   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio 2022 start window.":::
+
+1. In the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **All project types** list.
+
+1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
+
+1. In the **Configure your new project** window, name your project **MatchingGame**, and then select **Create**.
+
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/configure-new-project.png" alt-text="Screenshot of the Configure your new project window in Visual Studio 2022.":::
-   :::moniker-end
+
+:::moniker-end
 
 Visual Studio creates a *solution* for your app. A solution is a container for the projects and files that your app needs.
 
