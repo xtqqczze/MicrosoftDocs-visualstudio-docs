@@ -70,13 +70,13 @@ The first step of creating your game is to create a Windows Forms App project.
 
 1. In the **Configure your new project** window, name your project **MatchingGame**, and then select **Create**.
 
-::: moniker range=">=visualstudio"
+   ::: moniker range=">=visualstudio"
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/visualstudio/configure-new-project.png" alt-text="Screenshot of the Configure your new project window.":::
-:::moniker-end
+   :::moniker-end
 
-::: moniker range="vs-2022"
+   ::: moniker range="vs-2022"
    :::image type="content" source="../media/tutorial-windows-forms-create-match-game/configure-new-project.png" alt-text="Screenshot of the Configure your new project window in Visual Studio 2022.":::
-:::moniker-end
+   :::moniker-end
 
 Visual Studio creates a *solution* for your app. A solution is a container for the projects and files that your app needs.
 
