@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Options pane, Visual Experience, Environment
 - Visual Experience Environment Options pane
 - Visual Experience Options pane
-ms.custom: "ide-ref"
+ms.custom: "awp, ide-ref"
 author: GitHubber17
 ms.author: ghogen
 manager: mijacobs
