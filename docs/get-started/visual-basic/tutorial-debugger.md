@@ -237,7 +237,7 @@ This article uses the keyboard shortcuts, because it's a good way to get fast at
 
 ::: moniker range=">=vs-2022"
 
-To restart your app, press the **Ctrl** + **Shift** + **F5** key combination, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
+To restart your app, press the **Ctrl** + **Shift** + **F5** key combination. It saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
 The debugger stops again at the breakpoint you previously set inside the `For` loop.
 
