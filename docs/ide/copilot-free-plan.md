@@ -27,7 +27,7 @@ To get started with Copilot Free in Visual Studio, you need:
 With Visual Studio version 17.14 or later, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
 You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) at any time by following the steps below.
 
-If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.
+>*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
 
 1. Use **Ctrl+\\+C** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window** from the dropdown to open chat.
 
@@ -37,13 +37,13 @@ If you're not signed in, the **Get started with Copilot Free** dialog appears wh
 
    :::moniker range="<=vs-2022"
 
-      :::image type="content" source="../ide/media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
    :::moniker range="visualstudio"
 
-      :::image type="content" source="../ide/media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 

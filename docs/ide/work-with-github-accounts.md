@@ -38,7 +38,7 @@ If you sign in with a GitHub account that doesn't have an active GitHub Copilot 
 
 If you choose to not sign in with GitHub at first launch, you can add your GitHub account later using the **Copilot Chat window**, **profile card**, or **Account Settings** dialog.
 
-If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.
+>*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
 
 ### Add a GitHub account from the Copilot Chat window
 
@@ -48,17 +48,17 @@ In the Chat window, enter a prompt to start using Copilot. The **Get started wit
 - **Continue with GitHub** to setup Copilot Free for a new or existing GitHub account
 - **Continue with Google** to sign in with a Google account linked to your GitHub account
 
-:::moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-:::moniker-end
+   :::moniker-end
 
-:::moniker range="vs-2022"
+   :::moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-:::moniker-end
+   :::moniker-end
 
 ### Add a GitHub account from the **profile card**
 
