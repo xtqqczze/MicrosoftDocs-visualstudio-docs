@@ -56,7 +56,13 @@ The first step of creating your game is to create a Windows Forms App project.
 
 1. In the start window, select **Create a new project**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio start window.":::
+::: moniker range="visualstudio"
+   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio start window.":::
+:::moniker-end
+
+::: moniker range=">=vs-2022"
+   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/create-new-project-dark-theme.png" alt-text="Screenshot of the Create a new project option in the Visual Studio 2022 start window.":::
+:::moniker-end
 
 1. In the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **All project types** list.
 
@@ -64,7 +70,13 @@ The first step of creating your game is to create a Windows Forms App project.
 
 1. In the **Configure your new project** window, name your project **MatchingGame**, and then select **Create**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/configure-new-project.png" alt-text="Screenshot of the Configure your new project window.":::
+::: moniker range="visualstudio"
+   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/visualstudio/configure-new-project.png" alt-text="Screenshot of the Configure your new project window.":::
+:::moniker-end
+
+::: moniker range=">=vs-2022"
+   :::image type="content" source="../media/tutorial-windows-forms-create-match-game/configure-new-project.png" alt-text="Screenshot of the Configure your new project window in Visual Studio 2022.":::
+:::moniker-end
 
 Visual Studio creates a *solution* for your app. A solution is a container for the projects and files that your app needs.
 
