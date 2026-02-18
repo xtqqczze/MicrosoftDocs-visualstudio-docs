@@ -10,8 +10,7 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
-ms.custom: "awp, ide-ref"
-ai-usage: ai-assisted
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
