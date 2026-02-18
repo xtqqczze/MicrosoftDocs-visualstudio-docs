@@ -68,7 +68,7 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
 1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
 1. In the Copilot Chat window, type a coding related question in the **Ask Copilot** text box. Press **Enter** or select **Send** to ask your question.
 
-    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window.png" alt-text="Screenshot of Copilot Chat window.":::
+    :::image type="content" source="media/visualstudio/copilot-chat-window.png" alt-text="Screenshot of Copilot Chat window.":::
 
 1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, **Add to new file** to insert the code suggestion in a new file, or **Apply** to insert the code suggestion in your current code file. **Apply** button lets you preview the code in the target location so you can easily see what's being updated.
     

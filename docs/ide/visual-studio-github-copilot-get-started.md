@@ -39,13 +39,13 @@ In this article, you learn how to use Copilot and make the most of its features 
 
    :::moniker range="vs-2022"
 
-      :::image type="content" source="media/ide/vs-2022/get-started-with-copilot-free-dialog" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
+      :::image type="content" source="media/ide/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
 
    :::moniker-end
 
    :::moniker range="visualstudio"
 
-      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
 
    :::moniker-end
 
