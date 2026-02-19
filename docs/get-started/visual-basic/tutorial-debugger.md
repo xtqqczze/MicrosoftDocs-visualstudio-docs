@@ -210,7 +210,7 @@ This article uses the keyboard shortcuts, because it's a good way to get fast at
 
    :::image type="content" source="media/vs-2022/get-started-step-over-vb.png" alt-text="Screenshot showing a Debug session in the Visual Studio Code editor with execution paused after stepping over the 'SendMessage' method call.":::
 
-   This time that the debugger doesn't step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code. The code still executes. By pressing **F10** on the `SendMessage` method call (instead of **F11**), you skipped over the implementation code for `SendMessage`. For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
+   This time that the debugger doesn't step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code. The code still executes. By pressing **F10** on the `SendMessage` method call instead of **F11**, you skipped over the implementation code for `SendMessage`. For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
 
 ::: moniker-end
 
@@ -270,7 +270,7 @@ The debugger has features that allow you to inspect variables. There are differe
 
    If it's closed, open it while code execution is paused in the debugger by choosing **Debug** > **Windows** > **Autos**.
 
-   In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
+   In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line. Check documentation for language-specific behavior.
 
 1. Next, look at the **Locals** window, in a tab next to the **Autos** window.
 
