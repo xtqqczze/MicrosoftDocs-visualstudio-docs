@@ -12,7 +12,7 @@ ms.collection: ce-skilling-ai-copilot
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
-ms.custom: sfi-image-nochange
+ms.custom: "awp, sfi-image-nochange"
 ---
 # Customize chat responses and set context
 
