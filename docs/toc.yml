@@ -908,6 +908,8 @@
     href: ide/synchronized-settings-in-visual-studio.md
   - name: Fonts and colors
     href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
+  - name: Color themes
+    href: ide/visual-studio-color-themes.md
   - name: Menus and toolbars
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
   - name: Window layouts & tabs

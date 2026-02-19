@@ -25,7 +25,9 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Visual Experience** section.
 
-1. Use the dropdown list and set the **Color theme** value. Choose from **Dark**, **Light**, and other colors, or select **Use system setting** to use the current Windows theme. Visual Studio 2026 introduces new color themes, including **Cool Breeze**, **Spicy Red**, **Bubblegum**, and more.
+1. Use the dropdown list and set the **Color theme** value. Choose from **Dark**, **Light**, and other colors, or select **Use system setting** to use the current Windows theme. Visual Studio includes color themes such as **Cool Breeze**, **Spicy Red**, **Bubblegum**, and more.
+
+   For a visual preview of all available themes, see [Visual Studio color themes](visual-studio-color-themes.md).
 
    :::image type="content" source="media/visualstudio/fonts-colors-theme.png" alt-text="Screenshot of the Options pane where you can change the color theme.":::
 
@@ -309,6 +311,9 @@ The accessibility information included on this page might apply only to users wh
 
 ## Related content
 
+:::moniker range="visualstudio"
+- [Visual Studio color themes](visual-studio-color-themes.md)
+:::moniker-end
 - [Features of the code editor in Visual Studio](writing-code-in-the-code-and-text-editor.md)
 - [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md)
 - [Change text case in the editor](how-to-change-text-case-in-the-editor.md)
