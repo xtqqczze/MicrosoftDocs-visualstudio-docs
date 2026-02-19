@@ -192,7 +192,7 @@ Instead of typing `#` and searching for your prompt among all available referenc
 - **Custom prompts** appear at the top of the list with a bookmark icon
 - **System commands** (like `/explain`, `/fix`) appear below without an icon
 
-:::image type="content" source="media/visualstudio/copilot-chat-context/slash-commands-custom-prompts.png" alt-text="Screenshot of IntelliSense list showing custom prompts with bookmark icons at the top after typing slash.":::
+:::image type="content" source="media/visualstudio/copilot-chat-context/slash-commands.png" alt-text="Screenshot of IntelliSense list showing custom prompts with bookmark icons at the top after typing slash.":::
 
 ### Create custom instructions with /generateInstructions
 
