@@ -69,7 +69,7 @@ To analyze the call stack:
 1. When Copilot identifies a call stack issue, such as a frame that is waiting on an async task or execution fails during async operations, Copilot shows the **Analyze with Copilot** button by the relevant frame in the **Call Stack** window.
 1. Select **Analyze with Copilot**.
 
-:::image type="content" source="../debugger/media/visualstudio/debug-basics-analyze-call-stack.png" alt-text="Screenshot showing the Call Stack Window.":::
+:::image type="content" source="../debugger/media/visualstudio/debug-basics-analyze-call-stack.png" alt-text="Screenshot showing analysis from the Call Stack Window.":::
 
 Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. You can analyze the frame to get a clear explanation of:
 
