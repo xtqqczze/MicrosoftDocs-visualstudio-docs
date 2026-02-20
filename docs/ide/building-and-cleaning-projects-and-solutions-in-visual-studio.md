@@ -87,7 +87,17 @@ When you build using **Build solution** or **Build project** options, Visual Stu
 
 From the menu bar, choose **Build** > **Batch build**. The **Batch build** dialog box appears.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/building-and-cleaning-projects-and-solutions/batch-build.png" border="false" alt-text="Screenshot of the Batch build dialog box.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/building-and-cleaning-projects-and-solutions/batch-build.png" border="false" alt-text="Screenshot of the Batch build dialog box.":::
+
+:::moniker-end
 
 Select the desired projects and configurations and use the buttons to build, rebuild, or clean. The build operations start immediately, and all the output appears in the **Output** window.
 
