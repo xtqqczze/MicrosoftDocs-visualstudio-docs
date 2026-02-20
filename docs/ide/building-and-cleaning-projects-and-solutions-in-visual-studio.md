@@ -85,7 +85,7 @@ The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild
 
 When you build using **Build solution** or **Build project** options, Visual Studio builds the current configuration. You can use the batch build command to build multiple configurations in one operation.
 
-From the menu bar, choose **Build** > **Batch build**. The **Batch build** dialog box appears.
+From the menu bar, choose **Build** > **Batch build**. The **Batch Build** dialog box appears.
 
 :::moniker range="visualstudio"
 
