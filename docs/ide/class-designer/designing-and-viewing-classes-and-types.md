@@ -1,7 +1,7 @@
 ---
 title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
-ms.date: 02/03/2025
+ms.date: 02/23/2026
 ms.topic: concept-article
 f1_keywords:
 - vs.classdesigner.diagram
@@ -19,6 +19,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ai-usage: ai-assisted
 ---
 # Design, visualize, and refactor classes with Class Designer
 
@@ -28,6 +29,11 @@ Use **Class Designer** in Visual Studio to visualize your code structure, design
 > Class Designer is available for C#, Visual Basic, and C++ projects that target .NET Framework. It's not available for .NET Core, .NET 5, or later projects.
 
 With Class Designer, you can create class diagrams that show code elements and their relationships on a visual design surface. This view helps you understand your project structure and reorganize your code more effectively.
+
+## Prerequisites
+
+- Visual Studio 2019 or later with the **Class Designer** component installed. See [Install the Class Designer component](#install-the-class-designer-component).
+- A C#, Visual Basic, or C++ project that targets .NET Framework. Class Designer doesn't support .NET Core, .NET 5, or later.
 
 ## What you can do with class diagrams
 
@@ -79,7 +85,7 @@ If you don't have the **Class Designer** component installed, follow these steps
 
    **Visual Studio Installer** opens.
    
-1. If you already have Visual Studio installed, click the **Modify** button from the options.
+1. If you already have Visual Studio installed, select **Modify**.
 
 1. Select the **Individual components** tab, and then scroll down to the **Code tools** category.
 
@@ -90,6 +96,8 @@ If you don't have the **Class Designer** component installed, follow these steps
    ::: moniker-end
 
    The **Class Designer** component starts installing.
+
+1. When installation completes, restart Visual Studio. The **Class Diagram** template is now available in the **Add New Item** dialog.
 
 ## Add a blank class diagram to a project
 
@@ -160,11 +168,11 @@ The sections that contain type members, such as the **Properties** section in a 
 
 1. Open and select a class diagram file in the **Class Designer**.
 
-1. Right click the member category in the type you want to customize (for example, select the **Methods** node in a class.
+1. Right-click the member category in the type you want to customize (for example, select the **Methods** node in a class).
 
-1. Click **Hide Compartment**.
+1. Select **Hide Compartment**.
 
-     The selected compartment disappears from the type container.
+   The selected compartment disappears from the type container.
 
 ### Hide individual members on a type
 
@@ -172,9 +180,9 @@ The sections that contain type members, such as the **Properties** section in a 
 
 1. Right-click the member in the type you want to hide.
 
-1. Click **Hide**.
+1. Select **Hide**.
 
-     The selected member disappears from the type container.
+   The selected member disappears from the type container.
 
 ### Show hidden compartments and members on a type
 
@@ -182,9 +190,9 @@ The sections that contain type members, such as the **Properties** section in a 
 
 1. Right-click the name of the type with the hidden compartment.
 
-1. Click **Show All Members**.
+1. Select **Show All Members**.
 
-     All hidden compartments and members appear in the type container.
+   All hidden compartments and members appear in the type container.
 
 ### Hide relationships
 
@@ -192,11 +200,9 @@ The sections that contain type members, such as the **Properties** section in a 
 
 1. Right-click the association or inheritance line that you want to hide.
 
-1. Click **Hide** for association lines, and click **Hide Inheritance Line** for inheritance lines.
+1. Select **Hide** for association lines, or select **Hide Inheritance Line** for inheritance lines.
 
-1. Click **Show All Members**.
-
-     All hidden compartments and members appear in the type container.
+   The selected relationship line disappears from the diagram.
 
 ### Show hidden relationships
 
@@ -204,7 +210,9 @@ The sections that contain type members, such as the **Properties** section in a 
 
 1. Right-click the type with the hidden association or inheritance.
 
-   Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.
+1. Select **Show All Members** for association lines, or select **Show Base Class** or **Show Derived Classes** for inheritance lines.
+
+   The hidden relationship lines reappear on the diagram.
 
 ### Remove a shape from a class diagram
 You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type aren't affected.
@@ -267,13 +275,13 @@ To automatically update exported images that are linked from other documents, ex
 
 You can print a class diagram using the print feature of Visual Studio.
 
-### To print a class diagram
+### Print a class diagram
 
 1. Open the class diagram.
 
-1. Click **Print** on the **File** menu.
+1. Select **File** > **Print**.
 
-The entire class diagram prints. You may need to adjust the settings in the **Page Setup** dialog box in order to print at an appropriate size.
+   The entire class diagram prints. You might need to adjust the settings in the **Page Setup** dialog box to print at an appropriate size.
 
 ## Add comments to class diagrams
 
@@ -283,11 +291,13 @@ A comment resides on the class diagram view in **Class Designer**. If you open a
 
 You can resize a comment shape but you can't change other aspects of its appearance, such as its background color, font, or font size.
 
-### To add a comment
+### Add a comment
 
 1. Drag a comment from the **Class Designer Toolbox** onto the class diagram.
 
-1. Click in the new comment shape on the diagram and type the text you want.
+1. Select the new comment shape on the diagram and type the text you want.
+
+   The comment appears on the diagram surface.
 
 ## Keyboard and mouse shortcuts
 
@@ -370,6 +380,40 @@ Use the following keys to navigate the **Class Details** window:
 
 > [!TIP]
 > For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
+
+## Troubleshooting
+
+This section covers common issues you might encounter when using Class Designer.
+
+### Class Designer is unable to display this type
+
+This error occurs when Class Designer can't locate the source file for a type. Common causes include:
+
+- **Moved or renamed source files**: If you moved or renamed source files in your project, Class Designer loses track of the type.
+- **Deleted source files**: The underlying code for the type was deleted from the project.
+- **External type references**: The type is defined in another project that hasn't been built yet.
+
+**Solution**: Drag the modified or relocated source code file from **Solution Explorer** onto the class diagram to redisplay the type. If the type is in an external project, build that project first.
+
+### Class Diagram template not available
+
+If you don't see the **Class Diagram** template in the **Add New Item** dialog:
+
+1. Verify that you're working with a supported project type (C#, Visual Basic, or C++ targeting .NET Framework).
+2. Install the **Class Designer** component. See [Install the Class Designer component](#install-the-class-designer-component).
+3. Restart Visual Studio after installation.
+
+### Diagram doesn't update after code changes
+
+Class diagrams automatically sync with code changes. If the diagram isn't updating:
+
+1. Save all open files in the project.
+2. Build the project to refresh external type references.
+3. Close and reopen the class diagram file (*.cd*).
+
+### Types from referenced projects don't appear
+
+Types from other projects in your solution don't appear until you build the project that contains those types. Build the referenced project, then refresh your class diagram.
 
 ## Related content
 
