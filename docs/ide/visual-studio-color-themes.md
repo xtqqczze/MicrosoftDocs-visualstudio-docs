@@ -44,7 +44,7 @@ A bright, traditional interface with a white background ideal for well-lit works
 
 A calming blue-tinted theme with soft tones for a relaxed coding experience.
 
-:::image type="content" source="../get-started/media/visualstudio/cool-breeze-theme.png" alt-text="Screenshot of Visual Studio IDE using the Cool Breeze theme." lightbox="../get-started/media/visualstudio/cool-breeze-theme.png":::
+:::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-cool-breeze.png" alt-text="Screenshot of Visual Studio IDE using the Cool Breeze theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-cool-breeze.png":::
 
 ## Icy Mint
 
