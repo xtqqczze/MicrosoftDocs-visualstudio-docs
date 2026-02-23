@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 02/17/2026
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
@@ -50,8 +50,6 @@ The guided chat experience in Visual Studio 17.12 and later helps refine your pr
 
 :::moniker-end
 
-
-
 ## Use custom instructions
 
 The custom instructions feature enables you to automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
@@ -87,8 +85,7 @@ To use a `.github/copilot-instructions.md` file:
 
 Custom instructions aren't visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
 
-> [!TIP]
-> [Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
+[Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
 
 ### Use .instructions.md files
 
