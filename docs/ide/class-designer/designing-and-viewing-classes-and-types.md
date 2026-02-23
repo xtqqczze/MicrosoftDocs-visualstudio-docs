@@ -32,7 +32,7 @@ With Class Designer, you can create class diagrams that show code elements and t
 
 ## Prerequisites
 
-- Visual Studio 2019 or later with the **Class Designer** component installed. See [Install the Class Designer component](#install-the-class-designer-component).
+- Visual Studio with the **Class Designer** component installed. See [Install the Class Designer component](#install-the-class-designer-component).
 - A C#, Visual Basic, or C++ project that targets .NET Framework. Class Designer doesn't support .NET Core, .NET 5, or later.
 
 ## What you can do with class diagrams
@@ -380,40 +380,6 @@ Use the following keys to navigate the **Class Details** window:
 
 > [!TIP]
 > For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
-
-## Troubleshooting
-
-This section covers common issues you might encounter when using Class Designer.
-
-### Class Designer is unable to display this type
-
-This error occurs when Class Designer can't locate the source file for a type. Common causes include:
-
-- **Moved or renamed source files**: If you moved or renamed source files in your project, Class Designer loses track of the type.
-- **Deleted source files**: The underlying code for the type was deleted from the project.
-- **External type references**: The type is defined in another project that hasn't been built yet.
-
-**Solution**: Drag the modified or relocated source code file from **Solution Explorer** onto the class diagram to redisplay the type. If the type is in an external project, build that project first.
-
-### Class Diagram template not available
-
-If you don't see the **Class Diagram** template in the **Add New Item** dialog:
-
-1. Verify that you're working with a supported project type (C#, Visual Basic, or C++ targeting .NET Framework).
-2. Install the **Class Designer** component. See [Install the Class Designer component](#install-the-class-designer-component).
-3. Restart Visual Studio after installation.
-
-### Diagram doesn't update after code changes
-
-Class diagrams automatically sync with code changes. If the diagram isn't updating:
-
-1. Save all open files in the project.
-2. Build the project to refresh external type references.
-3. Close and reopen the class diagram file (*.cd*).
-
-### Types from referenced projects don't appear
-
-Types from other projects in your solution don't appear until you build the project that contains those types. Build the referenced project, then refresh your class diagram.
 
 ## Related content
 
