@@ -26,7 +26,7 @@ You can also use the button controls in the **Git Changes** window to perform th
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-changes-window-options.png" alt-text="The Git Changes window with the Fetch, Pull, Push, and Sync button controls highlighted in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-changes-window-options.png" alt-text="Screenshot that shows the Git Changes window with the Fetch, Pull, Push, and Sync button controls highlighted in Visual Studio.":::
 
 :::moniker-end
 
