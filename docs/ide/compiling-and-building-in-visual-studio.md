@@ -1,6 +1,6 @@
 ---
 title: Compile and build in Visual Studio
-description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
+description: Learn how to build applications in Visual Studio using the IDE, MSBuild command-line tools, CMake, or Azure Pipelines for CI/CD automation.
 ms.date: 2/23/2026
 ms.subservice: compile-build
 ms.topic: how-to
@@ -14,9 +14,13 @@ ai-usage: ai-assisted
 ---
 # Compile and build in Visual Studio
 
+Visual Studio provides multiple ways to build your applications, from interactive IDE builds with integrated debugging to automated CI/CD pipelines. This article helps you choose the right build method for your scenario and provides links to detailed documentation for each approach.
+
 For a first introduction to building within the IDE, see [Tutorial: Build an application](walkthrough-building-an-application.md).
 
-You can use any of the following methods to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Azure Pipelines:
+## Choose a build method
+
+Use the following table to determine which build method best fits your needs:
 
 | Build Method | Benefits |
 | --- | --- |
@@ -43,5 +47,8 @@ From there, you can explore a variety of other tasks:
 
 ## Related content
 
-- [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
+- [Tutorial: Build an application](walkthrough-building-an-application.md)
+- [MSBuild reference](../msbuild/msbuild.md)
 - [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio)
+- [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops&preserve-view=true)
+- [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
