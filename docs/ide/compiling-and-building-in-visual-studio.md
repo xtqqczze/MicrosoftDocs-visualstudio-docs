@@ -1,7 +1,7 @@
 ---
 title: Compile and build in Visual Studio
 description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
-ms.date: 2/3/2025
+ms.date: 2/23/2026
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,6 +10,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
+ai-usage: ai-assisted
 ---
 # Compile and build in Visual Studio
 
