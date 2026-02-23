@@ -18,7 +18,7 @@ In this article, you'll learn how to publish your first ASP.NET web app to vario
 This article supports ASP.NET and ASP.NET Core.
 
 > [!NOTE]
-> This article covers manual deployment, which is great for quickly getting something up and running, but for larger projects and production scenarios, you might want to set up a deployment pipeline. You can use [GitHub Actions](../azure/azure-deployment-using-github-actions.md) or [Azure DevOps Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) to set up automatic deployments with continuous integration for such scenarios.
+> This article covers manual deployment, which is great for quickly getting something up and running, but for larger projects and production scenarios, you might want to set up a deployment pipeline. You can use [GitHub Actions](../azure/azure-deployment-using-github-actions.md) or [Azure Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) to set up automatic deployments with continuous integration for such scenarios.
 
 ## Prerequisites
 
@@ -68,7 +68,7 @@ For detailed steps on publishing your web app, see [Quickstart: Deploy an ASP.NE
 
 ## Container registry
 
-This sections describes publishing to a container registry. You can publish your web app as a Docker container to any compatible Docker Container Registry.
+This section describes publishing to a container registry. You can publish your web app as a Docker container to any compatible Docker Container Registry.
 
 :::moniker range="visualstudio"
 
@@ -82,7 +82,7 @@ This sections describes publishing to a container registry. You can publish your
 
 :::moniker-end
 
-Click **Next** and choose from the available options, such as Azure Container Registry or Docker Hub.
+Select **Next** and choose from the available options, such as Azure Container Registry or Docker Hub.
 
 :::moniker range="visualstudio"
 
@@ -102,7 +102,7 @@ Next, for Azure Container Registry, either select an existing instance or create
 
 :::moniker range="visualstudio"
 
-![Screenshot showing the option to publish to Azure Container Registry.](./media/visualstudio/publish-acr-select-instance.png)
+![Screenshot showing the option to publish to Azure Container Registry.](./media/visualstudio/publish-container-registry-select-instance.png)
 
 :::moniker-end
 
@@ -118,7 +118,7 @@ Next, for Docker Hub, provide the publish credentials.
 
 :::moniker range="visualstudio"
 
-![Screenshot showing the option to publish to Docker Hub.](./media/visualstudio/publish-dockerhub-details.png)
+![Screenshot showing the option to publish to Docker Hub.](./media/visualstudio/publish-docker-hub-details.png)
 
 :::moniker-end
 
@@ -146,7 +146,7 @@ Next, for other Docker container registries, provide the URI and publish credent
 
 ### Publish container image
 
-Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Select **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
 
 :::moniker range="visualstudio"
 
@@ -179,7 +179,7 @@ You can publish your web app to both local and network folders.
 
 :::moniker-end
 
-First, provide the path and click **Finish** to complete the Publish wizard.
+First, provide the path and select **Finish** to complete the Publish wizard.
 
 :::moniker range="visualstudio"
 
@@ -193,7 +193,7 @@ First, provide the path and click **Finish** to complete the Publish wizard.
 
 :::moniker-end
 
-Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided path.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Select **Publish** and Visual Studio deploys your web app to the provided path.
 
 :::moniker range="visualstudio"
 
@@ -207,7 +207,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 :::moniker-end
 
-You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
+You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just select **New** in the summary page.)
 
 ## FTP/FTPS server
 
@@ -239,7 +239,7 @@ Provide the necessary connection details and choose **Finish**.
 
 :::moniker-end
 
-Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided FTP or FTPS Server.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Select **Publish** and Visual Studio deploys your web app to the provided FTP or FTPS Server.
 
 :::moniker range="visualstudio"
 
@@ -253,7 +253,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 :::moniker-end
 
-You can come back to this summary page after you close it. The next time you right-click and publish, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
+You can come back to this summary page after you close it. The next time you right-click and publish, Visual Studio opens this summary page. (To get back to the Publish wizard just select **New** in the summary page.)
 
 ## Web Server (IIS)
 
@@ -327,7 +327,7 @@ For troubleshooting, see [Web Deploy error codes](/troubleshoot/developer/webapp
 
 ### Web Deploy Package
 
-Click **Browse...** to open a Select Package Location dialog box and enter the path to where you want the package to be created, including the *.zip* file name.
+Select **Browse...** to open a Select Package Location dialog box and enter the path to where you want the package to be created, including the *.zip* file name.
 
 :::moniker range="visualstudio"
 
@@ -343,7 +343,7 @@ Click **Browse...** to open a Select Package Location dialog box and enter the p
 
 ### Finish the Publish wizard
 
-Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified IIS server.
+Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Select **Publish** and Visual Studio deploys your web app to the specified IIS server.
 
 :::moniker range="visualstudio"
 
