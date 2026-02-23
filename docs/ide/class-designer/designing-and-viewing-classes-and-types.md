@@ -20,51 +20,60 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# What is Class Designer?
+# Design, visualize, and refactor classes with Class Designer
 
-With the **Class Designer** tool in Visual Studio, you can design, visualize, and refactor class diagrams in C#, Visual Basic, or C++ projects. Class diagrams show the code elements and their relationships in a visual design surface, which can help you better understand your project structure and reorganize your code.
+Use **Class Designer** in Visual Studio to visualize your code structure, design new classes, and refactor existing types—all from an interactive diagram.
 
 > [!NOTE]
-> Class Designer is not available in .NET Core and .NET 5 and later projects.
+> Class Designer is available for C#, Visual Basic, and C++ projects that target .NET Framework. It's not available for .NET Core, .NET 5, or later projects.
 
-## About class diagrams
+With Class Designer, you can create class diagrams that show code elements and their relationships on a visual design surface. This view helps you understand your project structure and reorganize your code more effectively.
 
-Here's what you can do with class diagrams, in more detail:
+## What you can do with class diagrams
+
+Class diagrams support three main workflows:
 
 - **Design**: Edit your project's code by editing the class diagram. Add new elements and delete unwanted ones. Your changes are reflected in code.
 
-- **Visualize**: Understand your project's structure by viewing the classes in your project on a diagram. Customize your diagram so that you can focus on the project details that you care about the most. Save your diagram to use later for demonstration or documentation.
+- **Visualize**: Understand your project's structure by viewing classes on a diagram. Customize your diagram to focus on the details that matter most. Save diagrams for documentation or presentations.
 
 - **Refactor**: Override methods, rename identifiers, refactor parameters, and implement interfaces and abstract classes.
 
 ## View types and relationships
 
-Class diagrams show the details of types, for example, their constituent members, and the relationships between them. The visualization of these entities is a dynamic view into the code. This means that you can edit types in the designer and then see your edits reflected in the source code of the entity. Similarly, the class diagram is kept in sync with changes you make to code files.
+Class diagrams display type details—including members, properties, and methods—along with the relationships between types. The diagram provides a dynamic, two-way view of your code:
+
+- Edit types in the designer, and your changes appear in the source code.
+- Edit source code files, and the class diagram updates automatically.
 
 > [!NOTE]
 > If your project contains a class diagram and your project references a type that's located in another project, the class diagram doesn't show the referenced type until you build the project for that type. Likewise, the diagram doesn't display changes to the code of the external entity until you rebuild the project for that entity.
 
-### Class diagram workflow
+### Typical workflow
 
-Class diagrams can help you understand the class structure of projects. These projects might have been created by other developers, or you just need a refresher on a project you created yourself. You can use class diagrams to customize, share, and present project information with others.
+Class diagrams help you understand code structure, whether you're working with code created by other developers or revisiting your own projects. Use class diagrams to customize, share, and present project information.
 
-The first step in presenting project information is to create a class diagram that displays what you want to show. For more information, see [Add a class diagram](how-to-add-class-diagrams-to-projects.md). You can create multiple class diagrams for a project that can be used to display a distinct view of the project, a chosen subset of the project's types, or a chosen subset of the members of types.
+To get started, [add a class diagram](how-to-add-class-diagrams-to-projects.md) that displays the types you want to explore. You can create multiple class diagrams per project to show different views—a subset of types, specific members, or the entire project structure.
 
-In addition to defining what each class diagram shows, you can also change the way that information is presented; for more information, see [Customize class diagrams](how-to-customize-class-diagrams.md).
+You can also [customize how class diagrams display information](how-to-customize-class-diagrams.md), including grouping, sorting, and visibility options.
 
-After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [Copy class diagram elements to a Microsoft Office document](how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md), [Print class diagrams](how-to-print-class-diagrams.md) and [Export class diagrams as images](how-to-export-class-diagrams-as-images.md).
+When your diagrams are ready, you can:
+
+- [Copy diagram elements to Microsoft Office documents](how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md)
+- [Print class diagrams](how-to-print-class-diagrams.md)
+- [Export diagrams as images](how-to-export-class-diagrams-as-images.md)
 
 > [!NOTE]
 > Class Designer doesn't track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
 
 ## Add class diagrams to projects
 
-To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.
+Add a class diagram to your project to start designing, editing, and refactoring classes. You can add multiple diagrams to visualize different parts of your codebase.
 
 
 ### Install the Class Designer component
 
-If you haven't installed the **Class Designer** component, follow these steps to install it.
+If you don't have the **Class Designer** component installed, follow these steps:
 
 1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
 
@@ -91,42 +100,47 @@ If you haven't installed the **Class Designer** component, follow these steps to
 1. Expand **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
 
    > [!NOTE]
-   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio. As stated earlier in this article, Class Designer is not available for .NET Core and .NET 5 and later.
+   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio.
 
    The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**, or drag a project node from Solution Explorer to add the classes in that project.
 
 To add multiple class diagrams, repeat the steps in this procedure.
 
-### To display the contents of a complete project in a class diagram
+### Display the contents of a complete project
 
-Open a blank class diagram, then drag the project node from Solution Explorer to the class diagram surface. An auto-populated class diagram is created.
+To create a class diagram that shows all types in a project:
 
-> [!IMPORTANT]
-> Class Designer is not available in .NET Core projects.
+1. Open a blank class diagram.
+1. Drag the project node from **Solution Explorer** to the class diagram surface.
+
+An auto-populated class diagram is created with all types from the project.
 
 ## Customize class diagrams
 
-You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.
+Customize how class diagrams display information to focus on what matters most for your task. You can adjust the entire diagram or individual types.
 
-For example, you can adjust the zoom level of an entire class diagram, change how individual type members are grouped and sorted, hide or show relationships, and move individual or sets of types anywhere on the diagram.
+Customization options include:
+
+- Adjust the zoom level
+- Change how members are grouped and sorted
+- Hide or show relationships
+- Move types anywhere on the diagram
 
 > [!NOTE]
-> Customizing the way that shapes appear on the diagram doesn't change the underlying code for the types represented on the diagram.
+> Customizing the diagram appearance doesn't change the underlying code.
 
-The sections that contain type members, such as the **Properties** section in a class, are called compartments. You can hide or show individual compartments and type members.
+The sections that contain type members, such as the **Properties** section in a class, are called *compartments*. You can hide or show individual compartments and type members.
 
-### Zoom in and out of the class diagram
+### Zoom in and out
 
 1. Open and select a class diagram file in **Class Designer**.
 
-1. On the **Class Designer** toolbar, click the **Zoom In** or **Zoom Out** button to change the zoom level of the designer surface.
+1. On the **Class Designer** toolbar, select **Zoom In** or **Zoom Out** to change the zoom level.
 
-     or
+   Alternatively, use the **Zoom** dropdown list or type a zoom value (10% to 400%).
 
-     Specify a particular zoom value. You can use the **Zoom** drop down list or type a valid zoom level (valid range is between 10% and 400%).
-
-    > [!NOTE]
-    > Changing the zoom level doesn't affect the scale of your class diagram printout.
+> [!NOTE]
+> Changing the zoom level doesn't affect the scale of printed diagrams.
 
 ### Customize grouping and sorting of type members
 
@@ -275,9 +289,9 @@ You can resize a comment shape but you can't change other aspects of its appeara
 
 1. Click in the new comment shape on the diagram and type the text you want.
 
-## Use the mouse and keyboard shortcuts in the Class Diagram and Class Details window
+## Keyboard and mouse shortcuts
 
-You can use the keyboard in addition to the mouse (or other pointing device) to perform navigational actions in **Class Designer** and in the **Class Details** window.
+Use keyboard shortcuts and mouse actions to navigate efficiently in **Class Designer** and the **Class Details** window. These shortcuts help you work faster without switching to menu commands.
 
 ### Use the mouse in Class Designer
 
@@ -359,5 +373,8 @@ Use the following keys to navigate the **Class Details** window:
 
 ## Related content
 
+- [Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)
 - [Create types by using Class Designer](how-to-create-types.md)
 - [Work with C++ code in Class Designer](working-with-visual-cpp-code.md)
+- [Refactor classes and types](how-to-refactor-classes-and-types.md)
+- [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md)
