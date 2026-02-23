@@ -1,11 +1,14 @@
 ---
-title: Customize your build by folder or solution
-description: Explore the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system in Visual Studio.
-ms.date: 02/03/2025
+title: Customize the build by folder
+description: Explore the special imports Directory.Build.props and Directory.Build.targets that customize the MSBuild build process for all projects under a folder.
+ms.date: 02/23/2026
 ms.topic: how-to
 helpviewer_keywords:
-- MSBuild, transforms
-- transforms [MSBuild]
+- MSBuild, Directory.Build.props
+- MSBuild, Directory.Build.targets
+- Directory.Build.props
+- Directory.Build.targets
+- customize build [MSBuild]
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -14,6 +17,22 @@ ms.subservice: msbuild
 # Customize the build by folder
 
 You can add certain files to be imported by MSBuild to override default property settings and add custom targets. The scope of these customizations can be controlled at the folder level by where these files are placed.
+
+## Quick reference
+
+The following table summarizes the special files MSBuild recognizes for folder-based customization:
+
+| File | Purpose | Scope | Imported by |
+|------|---------|-------|-------------|
+| *Directory.Build.props* | Set default properties for projects | All projects in folder and subfolders | *Microsoft.Common.props* (early) |
+| *Directory.Build.targets* | Add custom targets and late properties | All projects in folder and subfolders | *Microsoft.Common.targets* (late) |
+| *Directory.Build.rsp* | Set default command-line arguments | CLI builds only (`msbuild.exe`, `dotnet build`) | MSBuild command-line processor |
+| *Directory.Solution.props* | Set properties for solution builds | Solution file builds | Solution build process |
+| *Directory.Solution.targets* | Add targets for solution builds | Solution file builds | Solution build process |
+
+This article focuses on *Directory.Build.props* and *Directory.Build.targets*. For information about the other files, see [MSBuild response files](msbuild-response-files.md) and [Customize solution builds](customize-solution-build.md).
+
+## Scenarios
 
 This article covers customizations applicable to the following scenarios:
 
@@ -66,6 +85,35 @@ For example, here's a *Directory.Build.props* file that sets the output director
    > The `$(OutDir)` property is an absolute path to the output, and using it bypasses the creation of subfolders for the configuration, target framework, or runtime that are normally used in .NET projects. Try using the property `BaseOutputPath` instead if you want the usual subfolders to be created under a custom output path.
 
 1. Run MSBuild. Your project's existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the *Directory.Build.props* file and import it, and the new output folder is used for all the projects under that folder.
+
+### Directory.Build.targets example
+
+Use *Directory.Build.targets* when you need to add custom build targets or override targets that run during the build process. Because it's imported late in the build sequence, it can access properties set by the project and NuGet packages.
+
+The following example adds a custom target that runs after each build to log information about the build output:
+
+```xml
+<Project>
+   <Target Name="LogBuildInfo" AfterTargets="Build">
+      <Message Importance="high" Text="Built $(MSBuildProjectName) -> $(TargetPath)" />
+   </Target>
+</Project>
+```
+
+Another common use is to enforce code analysis across all projects:
+
+```xml
+<Project>
+   <PropertyGroup>
+      <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+   </PropertyGroup>
+   
+   <Target Name="ValidateNamingConventions" BeforeTargets="CoreCompile">
+      <!-- Custom validation logic here -->
+   </Target>
+</Project>
+```
 
 ### Search scope
 
@@ -134,13 +182,13 @@ To control the import process more explicitly, use the properties `$(DirectoryBu
 
 The Boolean properties `$(ImportDirectoryBuildProps)` and `$(ImportDirectoryBuildTargets)` are set to `true` by default, so MSBuild normally searches for these files, but you can set them to `false` to prevent MSBuild from importing them.
 
-## Example
+## Example: Use preprocessed output to debug property placement
 
-This example shows the use of the preprocessed output to determine where to set a property.
+This example shows how to use the preprocessed output to determine where to set a property.
 
 To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where its value is used.
 
-As an example, suppose you have a simple .NET Core or .NET 5 or later Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property doesn't take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
+As an example, suppose you have a simple .NET Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property doesn't take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
 
 There's a comment in *Microsoft.Common.props* that says the property `BaseIntermediateOutput` has to be set here, before it's used by another property, `MSBuildProjectExtensionsPath`. You can also see that when `BaseIntermediateOutputPath` is initially set, there's a check for a pre-existing value, and if it's undefined, it gets set to `obj`.
 
@@ -281,9 +329,44 @@ C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.
     <ImportProjectExtensionProps Condition="'$(ImportProjectExtensionProps)' == ''">true</ImportProjectExtensionProps>
     <_InitialMSBuildProjectExtensionsPath Condition=" '$(ImportProjectExtensionProps)' == 'true' ">$(MSBuildProjectExtensionsPath)</_InitialMSBuildProjectExtensionsPath>
   </PropertyGroup>
-  ...
+  ....
 ```
+
+## Troubleshooting
+
+This section covers common issues when working with *Directory.Build.props* and *Directory.Build.targets*.
+
+### Property not taking effect
+
+If a property you set in *Directory.Build.props* doesn't seem to work:
+
+1. **Check import order**: The property might be getting overwritten later. Use `msbuild /pp:preprocessed.xml YourProject.csproj` to see the full import order and where your property is set relative to where it's used.
+
+2. **Verify file location**: MSBuild searches upward from the project directory. Make sure the file is in an ancestor directory of your project.
+
+3. **Check for typos in the filename**: The filename must be exactly *Directory.Build.props* (not *directory.build.props* on case-sensitive file systems).
+
+### Conflicts between multiple Directory.Build files
+
+If you have *Directory.Build.props* files at multiple levels in your folder hierarchy and properties aren't merging as expected:
+
+1. Remember that MSBuild stops searching after finding the first file.
+2. Use the `Import` technique shown in [Use case: multi-level merging](#use-case-multi-level-merging) to chain files together.
+3. Use `$(DirectoryBuildPropsPath)` to explicitly specify which file to import.
+
+### Changes not reflected in Visual Studio
+
+Visual Studio caches project information. After modifying *Directory.Build.props* or *Directory.Build.targets*:
+
+1. Save all files.
+2. Close and reopen the solution, or
+3. Right-click the solution and select **Reload Project**.
 
 ## Related content
 
-- [Customize your build](customize-your-build.md).
+- [Customize your build](customize-your-build.md)
+- [Customize solution builds](customize-solution-build.md)
+- [MSBuild response files](msbuild-response-files.md)
+- [Common MSBuild project properties](common-msbuild-project-properties.md)
+- [How to use MSBuild project SDKs](how-to-use-project-sdk.md)
+- [MSBuild targets](msbuild-targets.md)
