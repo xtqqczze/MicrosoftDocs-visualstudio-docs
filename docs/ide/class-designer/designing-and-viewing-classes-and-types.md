@@ -301,11 +301,11 @@ You can resize a comment shape but you can't change other aspects of its appeara
 
 ## Keyboard and mouse shortcuts
 
-Use keyboard shortcuts and mouse actions to navigate efficiently in **Class Designer** and the **Class Details** window. These shortcuts help you work faster without switching to menu commands.
+Use keyboard shortcuts and mouse actions (or another pointing device) to navigate efficiently in **Class Designer** and the **Class Details** window. These shortcuts help you work faster without switching to menu commands.
 
 ### Use the mouse in Class Designer
 
-The following mouse actions are supported in class diagrams:
+The following pointing device actions are supported in class diagrams:
 
 |Mouse Combination|Context|Description|
 | - |-------------|-----------------|
@@ -319,7 +319,7 @@ The following mouse actions are supported in class diagrams:
 
 ### Use the mouse in the Class Details window
 
-Using a mouse, you can change the appearance of the **Class Details** window and the data it displays in the following ways:
+Using a mouse or other pointing device, you can change the appearance of the **Class Details** window and the data it displays in the following ways:
 
 - Clicking any editable cell lets you edit the contents of that cell. Your changes are reflected in all places that data is stored or displayed, including in the **Properties** window and in source code.
 
