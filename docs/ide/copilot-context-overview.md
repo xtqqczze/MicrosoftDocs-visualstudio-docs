@@ -9,6 +9,8 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
+ms.ai-usage: ai-assisted
+ms.custom: awp-ai
 monikerRange: '>= vs-2022'
 ---
 
@@ -68,7 +70,7 @@ Copilot then categorizes the preference into one of three files:
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of the preference detected notification showing options to save the preference to user or repo level instructions.":::
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of the memory detected notification showing options to save the preference to user or repo level instructions.":::
 
 When a preference is detected, you can choose where to save it:
 
