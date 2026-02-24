@@ -88,6 +88,18 @@ Custom instructions aren't visible in the Chat view or inline chat. However, whe
 
 [Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
 
+:::moniker range="visualstudio"
+
+### Use user-level preferences
+
+In addition to repo-level custom instructions, you can define user-level preferences that apply to all your Copilot sessions across projects. User-level preferences are saved to `%USERPROFILE%/copilot-instructions.md`.
+
+Use user-level preferences for personal coding standards, preferred patterns, or workflow conventions that you want Copilot to follow regardless of the repository you're working in. Repo-level instructions in `.github/copilot-instructions.md` still apply alongside your user-level preferences, so your team's shared standards are also respected.
+
+You can add preferences to this file manually, or let [Copilot memories](copilot-context-overview.md#copilot-memories) detect and save them automatically as you chat.
+
+:::moniker-end
+
 ### Use .instructions.md files
 
 Instead of using a single instructions file that applies to all chat requests, you can create multiple  `*.instructions.md` files that apply to specific file types or tasks. For example, you can create instructions files for different programming languages, frameworks, or project types.
