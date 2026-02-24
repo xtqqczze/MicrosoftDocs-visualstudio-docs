@@ -33,12 +33,11 @@ The documentation in this section goes into further details of the IDE-based bui
 
 ## Building from the IDE
 
-When you create a project, Visual Studio creates default build configurations for the project and the solution that contains the project. These configurations define how the solutions and projects are built and deployed. Project configurations in particular are unique for a target platform (such as Windows or Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed.
+When you create a project, Visual Studio creates default project and solution configurations. These configurations define how the solutions and projects are built and deployed. Project configurations are specific to a target platform (such as Windows or Linux) and build type (such as debug or release). You can edit these configurations however you like, and can also create your own configurations as needed. See [Project and solution configurations](understanding-build-configurations.md).
 
 Next, see [Building and cleaning projects and solutions in Visual Studio](building-and-cleaning-projects-and-solutions-in-visual-studio.md) to learn about the different customizations you can make to the process. Customizations include [changing output directories](how-to-change-the-build-output-directory.md), [specifying custom build events](specifying-custom-build-events-in-visual-studio.md), [managing project dependencies](how-to-create-and-remove-project-dependencies.md), [managing build log files](how-to-view-save-and-configure-build-log-files.md), and [suppressing compiler warnings](how-to-suppress-compiler-warnings.md).
 
 From there, you can explore a variety of other tasks:
-- [Understand build configurations](understanding-build-configurations.md)
 - [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md)
@@ -51,4 +50,3 @@ From there, you can explore a variety of other tasks:
 - [MSBuild reference](../msbuild/msbuild.md)
 - [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio)
 - [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops&preserve-view=true)
-- [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
