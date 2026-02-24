@@ -24,9 +24,7 @@ Browse the sections below to preview each available theme.
 
 ## Use system setting
 
-Follows your Windows light or dark mode preference automatically. When Windows switches between light and dark modes, Visual Studio changes to match.
-
-:::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-system-setting.png" alt-text="Screenshot of Visual Studio IDE using the system theme setting." lightbox="media/visualstudio/visual-studio-color-themes/theme-system-setting.png":::
+Follows your Windows light or dark mode preference automatically. When Windows switches between light and dark modes, Visual Studio changes to match. See [Desktop Background and Themes Customizations](/windows-hardware/customize/desktop/wallpaper-and-themes-windows-11).
 
 ## Dark
 
