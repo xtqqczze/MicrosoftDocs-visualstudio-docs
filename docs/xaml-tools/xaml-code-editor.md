@@ -162,7 +162,7 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 When you're editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
-![Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019.](media/xaml-code-editor-right-click-menu.png)
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio.](media/xaml-code-editor-right-click-menu.png)
 
 Here's what each feature does and how it's useful:
 
