@@ -28,7 +28,7 @@ In this third tutorial, you learn how to:
 > - Write code for the other controls
 > - Run your application
 
-To create a new Windows Forms App with .NET, follow the tutorial [Create a Windows Forms app with .NET](/dotnet/desktop/winforms/get-started/create-app-visual-studio/). For more information, see [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/).
+For more information, see [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/).
 
 ## Prerequisites
 
