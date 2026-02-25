@@ -116,6 +116,10 @@ A rich purple theme with plum tones that creates a distinctive, sophisticated lo
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-juicy-plum.png" alt-text="Screenshot of Visual Studio IDE using the Juicy Plum theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-juicy-plum.png":::
 
+## Download color themes
+
+You can download more color themes at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ColorThemesforVisualStudio).
+
 ## Related content
 
 - [Configure Visual Experience options](configure-visual-experience-options.md)
