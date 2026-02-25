@@ -215,7 +215,8 @@ Copilot uses attached references and related files in your codebase to gather co
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" alt-text="Screenshot of Mermaid diagram rendering." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" :::
 
- 
+> [!TIP]
+> You can use the [Markdown preview controls](markdown-preview.md) to switch between preview modes and zoom in on complex Mermaid diagrams.
 
 ## Next steps
 
