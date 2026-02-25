@@ -162,7 +162,17 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 When you're editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
+:::moniker range="visualstudio"
+
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio.](media/visualstudio/xaml-code-editor-right-click-menu.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Screenshot of the XAML code editor's right-click context menu in Visual Studio.](media/xaml-code-editor-right-click-menu.png)
+
+:::moniker-end
 
 Here's what each feature does and how it's useful:
 
@@ -237,7 +247,17 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 In Visual Studio, #region support is available for XAML developers in WPF, UWP, [Xamarin.Forms](/xamarin/xamarin-forms/), and [.NET MAUI](/dotnet/maui). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
+:::moniker range="visualstudio"
+
+![Screenshot of the XAML code editor with #region options showing in IntelliSense.](media/visualstudio/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+
+:::moniker-end
 
 You can use regions when you want to group sections of your code that you also want to expand or collapse.
 
