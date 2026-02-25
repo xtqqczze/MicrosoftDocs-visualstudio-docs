@@ -3,7 +3,7 @@ title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
 description: Create a Windows App SDK application in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: 02/13/2026
+ms.date: 02/25/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -26,7 +26,7 @@ In this introduction to the Visual Studio integrated development environment (ID
 
 ## Prerequisites
 
-- You need Visual Studio to complete this tutorial. For a free version, see [Visual Studio downloads](https://visualstudio.microsoft.com/vs/).
+- You need Visual Studio 2026 or the latest version of Visual Studio 2022 to complete this tutorial. For a free version, see [Visual Studio downloads](https://visualstudio.microsoft.com/vs/).
 - Workloads and components required for developing with WinUI and the Windows App SDK. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
     
 On the **Workloads** tab of the Visual Studio Installer, select the following:
