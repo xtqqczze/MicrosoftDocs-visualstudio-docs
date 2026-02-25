@@ -4,6 +4,8 @@ description: Learn about the fully integrated GitHub Copilot Chat in Visual Stud
 ms.date: 02/19/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
+ai-usage: ai-assisted
+ms.custom: awp-ai
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
