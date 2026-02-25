@@ -25,9 +25,6 @@ ai-usage: ai-assisted
 
 Use **Class Designer** in Visual Studio to visualize your code structure, design new classes, and refactor existing types—all from an interactive diagram.
 
-> [!NOTE]
-> Class Designer is available for C#, Visual Basic, and C++ projects that target .NET Framework. It's not available for .NET Core, .NET 5, or later projects.
-
 With Class Designer, you can create class diagrams that show code elements and their relationships on a visual design surface. This view helps you understand your project structure and reorganize your code more effectively.
 
 ## Prerequisites
@@ -52,8 +49,7 @@ Class diagrams display type details—including members, properties, and methods
 - Edit types in the designer, and your changes appear in the source code.
 - Edit source code files, and the class diagram updates automatically.
 
-> [!NOTE]
-> If your project contains a class diagram and your project references a type that's located in another project, the class diagram doesn't show the referenced type until you build the project for that type. Likewise, the diagram doesn't display changes to the code of the external entity until you rebuild the project for that entity.
+If your project references a type in another project, the class diagram doesn't show that type until you build the referenced project. Likewise, the diagram doesn't display changes to external code until you rebuild that project.
 
 ### Typical workflow
 
@@ -69,8 +65,7 @@ When your diagrams are ready, you can:
 - [Print class diagrams](how-to-print-class-diagrams.md)
 - [Export diagrams as images](how-to-export-class-diagrams-as-images.md)
 
-> [!NOTE]
-> Class Designer doesn't track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
+Class Designer doesn't track source file locations. If you move or rename source files, Class Designer might lose track of types (especially typedefs, base classes, or association types) and display an error like **Class Designer is unable to display this type**. To fix this, drag the modified or relocated source file onto the class diagram to redisplay the type.
 
 ## Add class diagrams to projects
 
@@ -107,8 +102,7 @@ If you don't have the **Class Designer** component installed, follow these steps
 
 1. Expand **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
 
-   > [!NOTE]
-   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio.
+   If you don't see the **Class Diagram** template, [install the Class Designer component](#install-the-class-designer-component) first.
 
    The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**, or drag a project node from Solution Explorer to add the classes in that project.
 
@@ -134,8 +128,7 @@ Customization options include:
 - Hide or show relationships
 - Move types anywhere on the diagram
 
-> [!NOTE]
-> Customizing the diagram appearance doesn't change the underlying code.
+Customizing the diagram appearance doesn't change the underlying code.
 
 The sections that contain type members, such as the **Properties** section in a class, are called *compartments*. You can hide or show individual compartments and type members.
 
@@ -147,8 +140,7 @@ The sections that contain type members, such as the **Properties** section in a 
 
    Alternatively, use the **Zoom** dropdown list or type a zoom value (10% to 400%).
 
-> [!NOTE]
-> Changing the zoom level doesn't affect the scale of printed diagrams.
+Changing the zoom level doesn't affect the scale of printed diagrams.
 
 ### Customize grouping and sorting of type members
 
@@ -361,10 +353,7 @@ The following keyboard actions are supported in class diagrams:
 
 ### Use the keyboard in the Class Details window
 
-> [!NOTE]
-> The following key bindings mimic the experience of typing code.
-
-Use the following keys to navigate the **Class Details** window:
+The following key bindings mimic the experience of typing code. Use these keys to navigate the **Class Details** window:
 
 |Key|Result|
 |-|-|
@@ -378,8 +367,7 @@ Use the following keys to navigate the **Class Details** window:
 |**Left arrow**|If the cursor is in the Name column, pressing the left arrow collapses the current node in the hierarchy (if it's open).|
 |**Right arrow**|If the cursor is in the Name column, pressing the right arrow expands the current node in the hierarchy (if it's collapsed).|
 
-> [!TIP]
-> For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
+For a comprehensive list of keyboard shortcuts, see [Keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Related content
 
