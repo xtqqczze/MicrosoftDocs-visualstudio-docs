@@ -36,7 +36,7 @@ While the code editor window for XAML apps shares some UI (user interface) eleme
 
 Here's a look at the XAML code editor window itself.
 
-![The XAML code editor window in Visual Studio](media/xaml-code-editor-window.png "Screenshot of the XAML code editor window in Visual Studio 2019")
+![The XAML code editor window in Visual Studio](media/xaml-code-editor-window.png "Screenshot of the XAML code editor window in Visual Studio")
 
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
