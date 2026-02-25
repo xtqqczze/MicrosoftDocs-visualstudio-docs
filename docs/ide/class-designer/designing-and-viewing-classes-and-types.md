@@ -20,6 +20,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ai-usage: ai-assisted
+ms.custom: "awp-ai"
 ---
 # Design, visualize, and refactor classes with Class Designer
 
