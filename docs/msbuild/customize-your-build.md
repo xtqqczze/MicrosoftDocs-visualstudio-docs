@@ -13,6 +13,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ai-usage: ai-assisted
+ms.custom: awp-ai
 ---
 # Customize your build
 
