@@ -232,7 +232,7 @@ Light bulb icons that appear in your XAML code are part of the [Quick Actions](.
 
 Here are a few examples of how they can benefit your XAML coding experience:
 
-- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces are underlined with a blue wavy line. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
 
   ![The XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
 
