@@ -3,7 +3,6 @@ title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
 ms.date: 02/25/2026
 ms.topic: how-to
-ms.update-cycle: 90-days
 dev_langs: 
   - CSharp
   - VB
@@ -13,6 +12,8 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ai-usage: ai-assisted
+ms.custom: awp-ai
 zone_pivot_groups: programming-languages-set-two
 ---
 # Analyze memory usage in release builds (C#, Visual Basic, C++, F#)
