@@ -93,8 +93,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    ::: moniker-end
 
-
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="vs-2022"
 
    ```dockerfile
    # escape=`
@@ -139,6 +138,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
+   
    > [!NOTE]
    > Error code `3010` is used to indicate success with a reboot required. For more information, see [MsiExec.exe error messages](/windows/win32/msi/error-codes).
 
