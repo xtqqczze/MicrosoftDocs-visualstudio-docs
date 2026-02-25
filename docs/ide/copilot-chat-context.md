@@ -178,7 +178,6 @@ To use a prompt file:
 
 :::moniker range="visualstudio"
 
-> [!TIP]
 Once you've created prompt files, you can quickly invoke them by typing `/` in the chat input instead of searching with `#prompt:`.
 
 ## Invoke custom prompts with slash commands
