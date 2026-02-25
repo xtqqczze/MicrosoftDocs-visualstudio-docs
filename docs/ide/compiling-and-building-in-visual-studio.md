@@ -11,6 +11,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ai-usage: ai-assisted
+ms.custom: awp-ai
 ---
 # Compile and build in Visual Studio
 
