@@ -53,7 +53,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # escape=`
 
    # Use the latest .NET Framework runtime image.
-   FROM mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore
+   FROM mcr.microsoft.com/dotnet/framework/runtime:4.8.1-windowsservercore-ltsc2025
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
