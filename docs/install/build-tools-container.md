@@ -52,15 +52,15 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core 2022 image.
-   FROM mcr.microsoft.com/windows/servercore:ltsc2022
+   # Use the latest .NET Framework runtime image.
+   FROM mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
 
    RUN `
        # Download the Build Tools bootstrapper.
-       curl -SL --output vs_buildtools.exe https://aka.ms/vs/18/stable/vs_buildtools.exe `
+       curl -SL --output vs_buildtools.exe https://aka.ms/vs/stable/vs_buildtools.exe `
        `
        # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
        && (start /w vs_buildtools.exe --quiet --wait --norestart --nocache `
