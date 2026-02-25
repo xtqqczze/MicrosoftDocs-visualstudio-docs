@@ -232,13 +232,29 @@ Light bulb icons that appear in your XAML code are part of the [Quick Actions](.
 
 Here are a few examples of how they can benefit your XAML coding experience:
 
-- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces are underlined with a blue wavy line. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
+:::moniker range="visualstudio"
+
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces are underlined with a wavy blue line. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
+
+  ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb.](media/visualstudio/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
+
+- **Rename namespace**. This feature, available from the right-click context menu after you highlight a namespace, makes it easy to change multiple instances of a setting at one time. You can also access this feature by using the menu bar, **Edit** > **Refactor** > **Rename**, or by pressing **Ctrl**+**R**, and then **Ctrl**+**R** again.
+
+  ![Screenshot of the XAML code editor's Rename Namespace option from the right-click context menu.](media/visualstudio/code-editor-rename-namespace.png "Screenshot of the XAML code editor's Rename Namespace option that appears by using the right-click context menu")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
 
   ![The XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
 
 - **Rename namespace**. This feature, available from the right-click context menu after you highlight a namespace, makes it easy to change multiple instances of a setting at one time. You can also access this feature by using the menu bar, **Edit** > **Refactor** > **Rename**, or by pressing **Ctrl**+**R**, and then **Ctrl**+**R** again.
 
   ![The XAML code editor's Rename Namespace option from the right-click context menu](media/code-editor-rename-namespace.png "Screenshot of the XAML code editor's Rename Namespace option that appears by using the right-click context menu")
+
+:::moniker-end
 
   For more information, see the [Rename a code symbol refactoring](../ide/reference/rename.md) page.
 
@@ -258,9 +274,19 @@ For more information, see the [Navigate code](../ide/navigating-code.md) page.
 
 When you add a XAML tag to your code, you typically start with a left angle bracket `<`. When you type that angle bracket, an IntelliCode menu appears that lists several of the more popular XAML tags. Choose the one that you want to quickly add it to your code.
 
+:::moniker range="visualstudio"
+
+![Screenshot of the IntelliCode list for the XAML text editor.](media/visualstudio/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 You can recognize the IntelliCode selections because they appear at the top of the list and are starred.
 
 ![The IntelliCode list for the XAML text editor](media/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
+
+:::moniker-end
 
 For more information, see the [Overview of IntelliCode](/visualstudio/intellicode/overview/) page.
 
