@@ -22,7 +22,7 @@ In this article, you learn how to get better answers by providing more informati
 
 :::moniker range="visualstudio"
 
-+ Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations, or [invoke your custom prompts](#invoke-custom-prompts-with-slash-commands) directly
++ Use [slash commands](#slash-commands) to quickly specify common tasks like `/savePrompt`, or [invoke your custom prompts](#invoke-custom-prompts-with-slash-commands) directly
 + Use the [guided chat experience](#prompting-guidance) to refine context
 + Use [custom instructions](#use-custom-instructions) and [prompt files](#use-prompt-files) to customize responses
 
@@ -187,10 +187,10 @@ You can quickly invoke your favorite custom prompts directly from the chat input
 
 ### Access custom prompts with /
 
-Instead of typing `#` and searching for your prompt among all available references, type `/` in the chat input to see your custom prompts at the top of the IntelliSense list.
+Type `/` in the chat input to see your custom prompts at the top of the IntelliSense list.
 
 - **Custom prompts** appear at the top of the list with a bookmark icon
-- **System commands** (like `/explain`, `/fix`) appear below without an icon
+- **System commands** (like `/help`, `/savePrompt`) appear below without an icon
 
 :::image type="content" source="media/visualstudio/copilot-chat-context/slash-commands.png" alt-text="Screenshot of IntelliSense list showing custom prompts with bookmark icons at the top after typing slash.":::
 
