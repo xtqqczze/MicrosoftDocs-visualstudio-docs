@@ -118,7 +118,7 @@ A rich purple theme with plum tones that creates a distinctive, sophisticated lo
 
 ## Download color themes
 
-You can download more color themes at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=color%20theme&target=VS&category=All%20categories&vsVersion=vs2026&sortBy=Relevance). For example, he Visual Studio team released a [Visual Studio Color Theme Pack](https://marketplace.visualstudio.com/items?itemName=idex.vsthemepack), and you can also find the original [Blue theme](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueColorTheme) from earlier versions of Visual Studio.
+You can download more color themes at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=color%20theme&target=VS&category=All%20categories&vsVersion=vs2026&sortBy=Relevance). For example, the Visual Studio team released a [Visual Studio Color Theme Pack](https://marketplace.visualstudio.com/items?itemName=idex.vsthemepack), and you can also find the original [Blue theme](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueColorTheme) from earlier versions of Visual Studio.
 
 ## Related content
 
