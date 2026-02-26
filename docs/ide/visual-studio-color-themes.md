@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Color Themes
 description: Browse all available Visual Studio color themes including Dark, Light, Cool Breeze, Spicy Red, Bubblegum, and more. See screenshots of each theme in action.
-ms.date: 02/19/2026
+ms.date: 02/26/2026
 ms.topic: reference
 author: ghogen
 ms.author: ghogen
@@ -16,7 +16,7 @@ Visual Studio offers a variety of color themes to personalize your development e
 
 Color themes are rooted in one of two base themes, Light and Dark. Specific color themes vary the colors of the borders and background areas which add tint to the basic Light or Dark theme.
 
-The editor color setting is separate from the IDE color theme. By default, it matches the overall IDE color theme, but you can choose a dark background for the editor. Go to **Tools** > **Editor Appearance** to modfy the editor setting independently.
+The editor color setting is separate from the IDE color theme. By default, it matches the overall IDE color theme, but you can choose a light or dark background for the editor independently of the IDE color theme. Go to **Tools** > **Editor Appearance** to modfy the editor setting. In addition to Light or Dark, you can also try the **Extra Contrast** option, which can improve screen readability in some ambient lighting conditions.
 
 To change your color theme:
 
