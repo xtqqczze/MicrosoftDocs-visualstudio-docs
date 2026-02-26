@@ -1,7 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
 description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
-ms.date: 11/17/2025
+ms.date: 02/26/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 author: Mikejo5000
@@ -16,7 +16,7 @@ ms.collection: ce-skilling-ai-copilot
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
 
-# Quick Actions
+# Quick Actions, light bulbs, and screwdrivers
 
 Quick Actions in Visual Studio let you easily refactor, generate, or otherwise modify your code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
@@ -36,6 +36,9 @@ Visual Studio uses several icons to indicate when Quick Actions are available. T
 - **Yellow light bulb** ![light bulb icon](media/light-bulb-icon.png): Recommended action to address noncritical issues with your code.
 
 - **Error light bulb** ![error light bulb icon](media/error-light-bulb-icon.png): Critical action to fix an error in your code, or apply necessary refactoring.
+
+> [!TIP]
+> Quick Action icons can be small and difficult to see. To improve visibility, try enabling a high contrast theme in Windows or using a high contrast Visual Studio theme under **Tools** > **Options** > **Environment** > **General**.
 
 For any language, third parties can provide custom diagnostics and suggestions, such as part of an SDK. Visual Studio shows light bulbs based on those rules.
 
