@@ -16,7 +16,7 @@ Visual Studio offers a variety of color themes to personalize your development e
 
 Color themes are rooted in one of two base themes, Light and Dark. Specific color themes vary the colors of the borders and background areas which add tint to the basic Light or Dark theme.
 
-The editor color setting is separate from the IDE color theme. By default, it matches the overall IDE color theme, but you can choose a light or dark background for the editor independently of the IDE color theme. Go to **Tools** > **Editor Appearance** to modfy the editor setting. In addition to Light or Dark, you can also try the **Extra Contrast** option, which can improve screen readability in some ambient lighting conditions.
+The editor color setting is separate from the IDE color theme. By default, it matches the overall IDE color theme, but you can choose a light or dark background for the editor independently of the IDE color theme. Go to **Tools** > **Editor Appearance** to modfy the editor setting. In addition to Light or Dark, you can also try the **Extra Contrast** options (**Light Extra Contrast** or **Dark Extra Constrast**) which can improve text contrast in the editor.
 
 To change your color theme:
 
@@ -48,37 +48,25 @@ The following color themes are variations of the Light theme.
 
 ### Cool Breeze
 
-A calming blue-tinted theme with soft tones for a relaxed coding experience.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-cool-breeze.png" alt-text="Screenshot of Visual Studio IDE using the Cool Breeze theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-cool-breeze.png":::
 
 ### Icy Mint
-
-A fresh theme with mint-green accents that provides a clean, refreshing look.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-icy-mint.png" alt-text="Screenshot of Visual Studio IDE using the Icy Mint theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-icy-mint.png":::
 
 ### Mango Paradise
 
-A warm theme with orange and yellow tropical tones for a cheerful workspace.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-mango-paradise.png" alt-text="Screenshot of Visual Studio IDE using the Mango Paradise theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-mango-paradise.png":::
 
 ### Bubblegum
-
-A playful pink theme that adds a fun, vibrant touch to your IDE.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-bubblegum.png" alt-text="Screenshot of Visual Studio IDE using the Bubblegum theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-bubblegum.png":::
 
 ### Sunny Day
 
-A bright, cheerful yellow theme that brings sunshine to your workspace.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-sunny-day.png" alt-text="Screenshot of Visual Studio IDE using the Sunny Day theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-sunny-day.png":::
 
 ### Silky Pink
-
-An elegant theme with soft pink tones for a refined, gentle appearance.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-silky-pink.png" alt-text="Screenshot of Visual Studio IDE using the Silky Pink theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-silky-pink.png":::
 
@@ -88,31 +76,21 @@ The following color themes are variations of the Dark theme.
 
 ### Moonlight Glow
 
-Soft, nighttime-friendly tones designed for comfortable late-night coding sessions.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-moonlight-glow.png" alt-text="Screenshot of Visual Studio IDE using the Moonlight Glow theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-moonlight-glow.png":::
 
 ### Spicy Red
-
-A bold theme with warm red accents that adds energy to your development environment.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-spicy-red.png" alt-text="Screenshot of Visual Studio IDE using the Spicy Red theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-spicy-red.png":::
 
 ### Mystical Forest
 
-A nature-inspired theme with green tones that evokes a calm, woodland atmosphere.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-mystical-forest.png" alt-text="Screenshot of Visual Studio IDE using the Mystical Forest theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-mystical-forest.png":::
 
 ### Cool Slate
 
-A neutral gray theme with a professional, understated appearance.
-
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-cool-slate.png" alt-text="Screenshot of Visual Studio IDE using the Cool Slate theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-cool-slate.png":::
 
 ### Juicy Plum
-
-A rich purple theme with plum tones that creates a distinctive, sophisticated look.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-juicy-plum.png" alt-text="Screenshot of Visual Studio IDE using the Juicy Plum theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-juicy-plum.png":::
 
