@@ -32,13 +32,13 @@ Follows your Windows light or dark mode preference automatically. When Windows s
 
 ## Dark
 
-The classic dark theme reduces eye strain in low-light environments with a dark background and light text.
+The dark theme reduces eye strain in low-light environments with a dark background and light text.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-dark.png" alt-text="Screenshot of Visual Studio IDE using the Dark theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-dark.png":::
 
 ## Light
 
-A bright, traditional interface with a white background ideal for well-lit workspaces.
+A brighter interface with a white background ideal for well-lit workspaces.
 
 :::image type="content" source="media/visualstudio/visual-studio-color-themes/theme-light.png" alt-text="Screenshot of Visual Studio IDE using the Light theme." lightbox="media/visualstudio/visual-studio-color-themes/theme-light.png":::
 
