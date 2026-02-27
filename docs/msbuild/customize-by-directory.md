@@ -12,6 +12,8 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
+ai-usage: ai-assisted
+ms.custom: awp
 ms.subservice: msbuild
 ---
 # Customize the build by folder
