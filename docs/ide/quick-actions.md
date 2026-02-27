@@ -38,7 +38,7 @@ Visual Studio uses several icons to indicate when Quick Actions are available. T
 - **Error light bulb** ![error light bulb icon](media/error-light-bulb-icon.png): Critical action to fix an error in your code, or apply necessary refactoring.
 
 > [!TIP]
-> Quick Action icons can be small and difficult to see. To improve visibility, try enabling a high contrast theme in Windows or using a high contrast Visual Studio theme under **Tools** > **Options** > **Environment** > **General**.
+> Quick Action icons can be small. To increase visibility, try enabling a high contrast theme in Windows or using a high contrast Visual Studio theme under **Tools** > **Options** > **Environment** > **General**.
 
 For any language, third parties can provide custom diagnostics and suggestions, such as part of an SDK. Visual Studio shows light bulbs based on those rules.
 
